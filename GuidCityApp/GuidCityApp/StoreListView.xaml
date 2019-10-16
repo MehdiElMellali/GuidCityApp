@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GuidCityApp.StoreListView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:behaviors="clr-namespace:GuidCityApp.Behavior">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView
+                HorizontalOptions="Fill"
+                HorizontalScrollBarVisibility="Never"
+                Orientation="Horizontal">
+                <StackLayout Padding="10" Orientation="Horizontal">
+
+                    <Button
+                        x:Name="BtnClear"
+                        BorderRadius="20"
+                        Text="Chalets" />
+                    <Button
+                        BackgroundColor="#FFB71A"
+                        BorderRadius="20"
+                        Text="Restaurants" />
+                    <Button BorderRadius="20" Text="Hotels" />
+                    <Button BorderRadius="20" Text="House" />
+
+                </StackLayout>
+            </ScrollView>
+            <StackLayout HeightRequest="500">
+                <!--  Place new controls here  -->
+                <CarouselView ItemsSource="{Binding Sections}">
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid VerticalOptions="CenterAndExpand">
+
+                                <Frame
+                                    Margin="8"
+                                    Padding="0"
+                                    BorderColor="Gray"
+                                    HasShadow="True"
+                                    HeightRequest="150"
+                                    WidthRequest="300">
+                                    <StackLayout>
+                                        <Image Source="{Binding Emoji}" />
+                                    </StackLayout>
+                                </Frame>
+
+                                <Grid
+                                    Grid.RowSpan="4"
+                                    ColumnSpacing="0"
+                                    HorizontalOptions="CenterAndExpand"
+                                    VerticalOptions="End">
+                                    <Button
+                                        Grid.Column="0"
+                                        Padding="10"
+                                        BackgroundColor="#fff"
+                                        CornerRadius="10"
+                                        Text="{Binding Header}"
+                                        TextColor="Black" />
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+
+            </StackLayout>
+            <StackLayout>
+                <Label
+                    Margin="10"
+                    FontSize="Subtitle"
+                    Text="Places" />
+                <ListView
+                    CachingStrategy="RecycleElement"
+                    HasUnevenRows="True"
+                    ItemsSource="{Binding Items}"
+                    RowHeight="60"
+                    SeparatorVisibility="None">
+                    <ListView.Behaviors>
+                        <behaviors:ListViewBehavior />
+                    </ListView.Behaviors>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ContentView Padding="5,10" BackgroundColor="White">
+                                    <Frame
+                                        Padding="10,15"
+                                        BackgroundColor="White"
+                                        CornerRadius="5"
+                                        HasShadow="True"
+                                        OutlineColor="#F2F2F2">
+                                        <Grid Grid.Column="0" HorizontalOptions="FillAndExpand">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="2*" />
+                                                <ColumnDefinition Width="4*" />
+                                                <ColumnDefinition Width="1*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Image
+                                                Grid.Row="0"
+                                                Grid.Column="0"
+                                                HeightRequest="20"
+                                                Source="{Binding Image}" />
+                                            <StackLayout Grid.Row="0" Grid.Column="1">
+                                                <Label FontAttributes="Bold" Text="{Binding Name}" />
+                                                <Label Text="{Binding Description}" />
+                                            </StackLayout>
+                                            <Image
+                                                Grid.Row="0"
+                                                Grid.Column="2"
+                                                HeightRequest="5"
+                                                Source="{Binding Favorit}" />
+                                        </Grid>
+                                    </Frame>
+                                </ContentView>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

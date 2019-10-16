@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Base:BaseView
+    x:Class="GuidCityApp.View.Login"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Base="clr-namespace:GuidCityApp.View.Base"
+    xmlns:vm="clr-namespace:GuidCityApp.ViewModel"
+    xmlns:vm1="clr-namespace:Mobile.ViewModel"
+    BackgroundColor="#289851">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm1:LoginVM x:Key="vm" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20"
+            BackgroundColor="#289851"
+            BindingContext="{Binding Source={StaticResource vm}}"
+            Orientation="Vertical"
+            Spacing="20"
+            VerticalOptions="Center">
+
+            <!--<material:MaterialTextField
+                ErrorText="Error Text"
+                HelperText="Helper Text"
+                InputType="Email"
+                Placeholder="Email"
+                Text="{Binding Username}" />
+
+            <material:MaterialTextField
+                ErrorText="Error Text"
+                HelperText="Helper Text"
+                InputType="Password"
+                Placeholder="Mot de passe"
+                Text="{Binding Password}" />-->
+
+            <Entry
+                Placeholder="Email"
+                PlaceholderColor="White"
+                Text="{Binding Username}"
+                TextColor="White" />
+            <Entry
+                IsPassword="True"
+                Placeholder="Password"
+                PlaceholderColor="White"
+                Text="{Binding Password}"
+                TextColor="White" />
+
+            <Button
+                BackgroundColor="White"
+                Command="{Binding Source={StaticResource vm}, Path=LoginCommand}"
+                FontSize="10"
+                Text="Connexion"
+                TextColor="#289851" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</Base:BaseView>
