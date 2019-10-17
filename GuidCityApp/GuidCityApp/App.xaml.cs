@@ -19,6 +19,10 @@ namespace GuidCityApp
             InitializeComponent();
             XF.Material.Forms.Material.Init(this);
 
+#if DEBUG
+            HotReloader.Current.Run(this);
+#endif
+
             MasterDetailPage = new MasterDetailPage
             {
                 Master = new MenuView(),
