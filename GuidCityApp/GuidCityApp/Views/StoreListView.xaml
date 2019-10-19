@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage
-    x:Class="GuidCityApp.StoreListView"
+<Base:BaseView
+    xmlns:Base="clr-namespace:GuidCityApp.View.Base"
+    x:Class="GuidCityApp.View.StoreListView"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:fontawesome="clr-namespace:FontAwesome"
+    Title="Home"
+    BackgroundColor="White"
     xmlns:behaviors="clr-namespace:GuidCityApp.Behavior">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Command="{Binding OpenPopUpCommand}"
+            Icon="filter"
+            Order="Primary" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <ScrollView
@@ -13,15 +22,19 @@
                 Orientation="Horizontal">
                 <StackLayout Padding="10" Orientation="Horizontal">
                     <Button
-                        x:Name="BtnClear"
+                         BackgroundColor="{Binding ColorChaletsButton}"
+                        Command="{Binding GetListCommand}"
+                        CommandParameter="1"
                         BorderRadius="20"
                         Text="Chalets" />
                     <Button
-                        BackgroundColor="#FFB71A"
+                        BackgroundColor="{Binding ColorRestaurantsButton}"
                         BorderRadius="20"
+                        CommandParameter="2"
+                        Command="{Binding GetListCommand}"
                         Text="Restaurants" />
-                    <Button BorderRadius="20" Text="Hotels" />
-                    <Button BorderRadius="20" Text="House" />
+                    <Button CommandParameter="3" BackgroundColor="{Binding ColorHotelsButton}"  Command="{Binding GetListCommand}" BorderRadius="20" Text="Hotels" />
+                    <Button CommandParameter="4" BackgroundColor="{Binding ColorHouseButton}" Command="{Binding GetListCommand}" BorderRadius="20" Text="House" />
 
                 </StackLayout>
             </ScrollView>
@@ -121,4 +134,4 @@
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</Base:BaseView>

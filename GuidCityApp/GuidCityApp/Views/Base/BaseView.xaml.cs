@@ -11,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace GuidCityApp.View.Base
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BaseView : ContentPage 
+    public partial class BaseView : ContentPage
     {
 
         public Guid PageInstanceId { get; set; }

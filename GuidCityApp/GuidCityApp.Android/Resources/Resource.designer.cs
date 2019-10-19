@@ -26,6 +26,2282 @@ namespace GuidCityApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_fade_in = global::GuidCityApp.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_fade_out = global::GuidCityApp.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::GuidCityApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_popup_enter = global::GuidCityApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_popup_exit = global::GuidCityApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::GuidCityApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_slide_in_bottom = global::GuidCityApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_slide_in_top = global::GuidCityApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_slide_out_bottom = global::GuidCityApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.abc_slide_out_top = global::GuidCityApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::GuidCityApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::GuidCityApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.design_snackbar_in = global::GuidCityApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.design_snackbar_out = global::GuidCityApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.EnterFromLeft = global::GuidCityApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.EnterFromRight = global::GuidCityApp.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.ExitToLeft = global::GuidCityApp.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animation.ExitToRight = global::GuidCityApp.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Animator.design_appbar_state_list_animator = global::GuidCityApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarDivider = global::GuidCityApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarItemBackground = global::GuidCityApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarPopupTheme = global::GuidCityApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarSize = global::GuidCityApp.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarSplitStyle = global::GuidCityApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarStyle = global::GuidCityApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarTabBarStyle = global::GuidCityApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarTabStyle = global::GuidCityApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarTabTextStyle = global::GuidCityApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarTheme = global::GuidCityApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionBarWidgetTheme = global::GuidCityApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionDropDownStyle = global::GuidCityApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionLayout = global::GuidCityApp.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionMenuTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionMenuTextColor = global::GuidCityApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeBackground = global::GuidCityApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeCloseDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeCopyDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeCutDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeFindDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModePasteDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModePopupWindowStyle = global::GuidCityApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeShareDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeSplitBackground = global::GuidCityApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeStyle = global::GuidCityApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::GuidCityApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionOverflowButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionOverflowMenuStyle = global::GuidCityApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionProviderClass = global::GuidCityApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.actionViewClass = global::GuidCityApp.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.activityChooserViewStyle = global::GuidCityApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::GuidCityApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.alertDialogCenterButtons = global::GuidCityApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.alertDialogStyle = global::GuidCityApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.alertDialogTheme = global::GuidCityApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.allowStacking = global::GuidCityApp.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.alpha = global::GuidCityApp.Droid.Resource.Attribute.alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.alphabeticModifiers = global::GuidCityApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.arrowHeadLength = global::GuidCityApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.arrowShaftLength = global::GuidCityApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::GuidCityApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.autoSizeMaxTextSize = global::GuidCityApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.autoSizeMinTextSize = global::GuidCityApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.autoSizePresetSizes = global::GuidCityApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.autoSizeStepGranularity = global::GuidCityApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.autoSizeTextType = global::GuidCityApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.background = global::GuidCityApp.Droid.Resource.Attribute.background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.backgroundSplit = global::GuidCityApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.backgroundStacked = global::GuidCityApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.backgroundTint = global::GuidCityApp.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.backgroundTintMode = global::GuidCityApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.barLength = global::GuidCityApp.Droid.Resource.Attribute.barLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.behavior_autoHide = global::GuidCityApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.behavior_hideable = global::GuidCityApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.behavior_overlapTop = global::GuidCityApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.behavior_peekHeight = global::GuidCityApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.behavior_skipCollapsed = global::GuidCityApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.borderlessButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.borderWidth = global::GuidCityApp.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.bottomSheetDialogTheme = global::GuidCityApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.bottomSheetStyle = global::GuidCityApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonBarButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonBarStyle = global::GuidCityApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonGravity = global::GuidCityApp.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonPanelSideLayout = global::GuidCityApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonStyle = global::GuidCityApp.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonStyleSmall = global::GuidCityApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonTint = global::GuidCityApp.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.buttonTintMode = global::GuidCityApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.cardBackgroundColor = global::GuidCityApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.cardCornerRadius = global::GuidCityApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.cardElevation = global::GuidCityApp.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.cardMaxElevation = global::GuidCityApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.cardPreventCornerOverlap = global::GuidCityApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.cardUseCompatPadding = global::GuidCityApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.checkboxStyle = global::GuidCityApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.checkedTextViewStyle = global::GuidCityApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.closeIcon = global::GuidCityApp.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.closeItemLayout = global::GuidCityApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.collapseContentDescription = global::GuidCityApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.collapsedTitleGravity = global::GuidCityApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.collapseIcon = global::GuidCityApp.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.color = global::GuidCityApp.Droid.Resource.Attribute.color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorAccent = global::GuidCityApp.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorBackgroundFloating = global::GuidCityApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorButtonNormal = global::GuidCityApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorControlActivated = global::GuidCityApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorControlHighlight = global::GuidCityApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorControlNormal = global::GuidCityApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorError = global::GuidCityApp.Droid.Resource.Attribute.colorError;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorPrimary = global::GuidCityApp.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorPrimaryDark = global::GuidCityApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.colorSwitchThumbNormal = global::GuidCityApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.commitIcon = global::GuidCityApp.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentDescription = global::GuidCityApp.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentInsetEnd = global::GuidCityApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentInsetEndWithActions = global::GuidCityApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentInsetLeft = global::GuidCityApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentInsetRight = global::GuidCityApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentInsetStart = global::GuidCityApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::GuidCityApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentPadding = global::GuidCityApp.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentPaddingBottom = global::GuidCityApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentPaddingLeft = global::GuidCityApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentPaddingRight = global::GuidCityApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentPaddingTop = global::GuidCityApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.contentScrim = global::GuidCityApp.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.controlBackground = global::GuidCityApp.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.counterEnabled = global::GuidCityApp.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.counterMaxLength = global::GuidCityApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.counterOverflowTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.counterTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.customNavigationLayout = global::GuidCityApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.defaultQueryHint = global::GuidCityApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dialogPreferredPadding = global::GuidCityApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dialogTheme = global::GuidCityApp.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.displayOptions = global::GuidCityApp.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.divider = global::GuidCityApp.Droid.Resource.Attribute.divider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dividerHorizontal = global::GuidCityApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dividerPadding = global::GuidCityApp.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dividerVertical = global::GuidCityApp.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.drawableSize = global::GuidCityApp.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.drawerArrowStyle = global::GuidCityApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::GuidCityApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.dropDownListViewStyle = global::GuidCityApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.editTextBackground = global::GuidCityApp.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.editTextColor = global::GuidCityApp.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.editTextStyle = global::GuidCityApp.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.elevation = global::GuidCityApp.Droid.Resource.Attribute.elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.errorEnabled = global::GuidCityApp.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.errorTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::GuidCityApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expanded = global::GuidCityApp.Droid.Resource.Attribute.expanded;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleGravity = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleMargin = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleMarginBottom = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleMarginEnd = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleMarginStart = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleMarginTop = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.expandedTitleTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::GuidCityApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fabSize = global::GuidCityApp.Droid.Resource.Attribute.fabSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fastScrollEnabled = global::GuidCityApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::GuidCityApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::GuidCityApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::GuidCityApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::GuidCityApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.font = global::GuidCityApp.Droid.Resource.Attribute.font;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontFamily = global::GuidCityApp.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontProviderAuthority = global::GuidCityApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontProviderCerts = global::GuidCityApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontProviderFetchStrategy = global::GuidCityApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontProviderFetchTimeout = global::GuidCityApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontProviderPackage = global::GuidCityApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontProviderQuery = global::GuidCityApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontStyle = global::GuidCityApp.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.fontWeight = global::GuidCityApp.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.foregroundInsidePadding = global::GuidCityApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.gapBetweenBars = global::GuidCityApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.goIcon = global::GuidCityApp.Droid.Resource.Attribute.goIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.headerLayout = global::GuidCityApp.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.height = global::GuidCityApp.Droid.Resource.Attribute.height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.hideOnContentScroll = global::GuidCityApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.hintAnimationEnabled = global::GuidCityApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.hintEnabled = global::GuidCityApp.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.hintTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.homeAsUpIndicator = global::GuidCityApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.homeLayout = global::GuidCityApp.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.icon = global::GuidCityApp.Droid.Resource.Attribute.icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.iconifiedByDefault = global::GuidCityApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.iconTint = global::GuidCityApp.Droid.Resource.Attribute.iconTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.iconTintMode = global::GuidCityApp.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.imageButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.indeterminateProgressStyle = global::GuidCityApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.initialActivityCount = global::GuidCityApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.insetForeground = global::GuidCityApp.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.isLightTheme = global::GuidCityApp.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.itemBackground = global::GuidCityApp.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.itemIconTint = global::GuidCityApp.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.itemPadding = global::GuidCityApp.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.itemTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.itemTextColor = global::GuidCityApp.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.keylines = global::GuidCityApp.Droid.Resource.Attribute.keylines;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout = global::GuidCityApp.Droid.Resource.Attribute.layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layoutManager = global::GuidCityApp.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_anchor = global::GuidCityApp.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_anchorGravity = global::GuidCityApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_behavior = global::GuidCityApp.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_collapseMode = global::GuidCityApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::GuidCityApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::GuidCityApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_insetEdge = global::GuidCityApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_keyline = global::GuidCityApp.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_scrollFlags = global::GuidCityApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.layout_scrollInterpolator = global::GuidCityApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::GuidCityApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listDividerAlertDialog = global::GuidCityApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listItemLayout = global::GuidCityApp.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listLayout = global::GuidCityApp.Droid.Resource.Attribute.listLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listMenuViewStyle = global::GuidCityApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listPopupWindowStyle = global::GuidCityApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listPreferredItemHeight = global::GuidCityApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::GuidCityApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::GuidCityApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::GuidCityApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::GuidCityApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.logo = global::GuidCityApp.Droid.Resource.Attribute.logo;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.logoDescription = global::GuidCityApp.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.maxActionInlineWidth = global::GuidCityApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.maxButtonHeight = global::GuidCityApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.measureWithLargestChild = global::GuidCityApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteButtonTint = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteStopDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteTheme = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::GuidCityApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.menu = global::GuidCityApp.Droid.Resource.Attribute.menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.multiChoiceItemLayout = global::GuidCityApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.navigationContentDescription = global::GuidCityApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.navigationIcon = global::GuidCityApp.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.navigationMode = global::GuidCityApp.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.numericModifiers = global::GuidCityApp.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.overlapAnchor = global::GuidCityApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.paddingBottomNoButtons = global::GuidCityApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.paddingEnd = global::GuidCityApp.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.paddingStart = global::GuidCityApp.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.paddingTopNoTitle = global::GuidCityApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.panelBackground = global::GuidCityApp.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.panelMenuListTheme = global::GuidCityApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.panelMenuListWidth = global::GuidCityApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.passwordToggleContentDescription = global::GuidCityApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.passwordToggleDrawable = global::GuidCityApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.passwordToggleEnabled = global::GuidCityApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.passwordToggleTint = global::GuidCityApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.passwordToggleTintMode = global::GuidCityApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.popupMenuStyle = global::GuidCityApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.popupTheme = global::GuidCityApp.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.popupWindowStyle = global::GuidCityApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.preserveIconSpacing = global::GuidCityApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.pressedTranslationZ = global::GuidCityApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.progressBarPadding = global::GuidCityApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.progressBarStyle = global::GuidCityApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.queryBackground = global::GuidCityApp.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.queryHint = global::GuidCityApp.Droid.Resource.Attribute.queryHint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.radioButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.ratingBarStyle = global::GuidCityApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.ratingBarStyleIndicator = global::GuidCityApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.ratingBarStyleSmall = global::GuidCityApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.reverseLayout = global::GuidCityApp.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.rippleColor = global::GuidCityApp.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.scrimAnimationDuration = global::GuidCityApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::GuidCityApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.searchHintIcon = global::GuidCityApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.searchIcon = global::GuidCityApp.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.searchViewStyle = global::GuidCityApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.seekBarStyle = global::GuidCityApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.selectableItemBackground = global::GuidCityApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::GuidCityApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.showAsAction = global::GuidCityApp.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.showDividers = global::GuidCityApp.Droid.Resource.Attribute.showDividers;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.showText = global::GuidCityApp.Droid.Resource.Attribute.showText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.showTitle = global::GuidCityApp.Droid.Resource.Attribute.showTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.singleChoiceItemLayout = global::GuidCityApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.spanCount = global::GuidCityApp.Droid.Resource.Attribute.spanCount;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.spinBars = global::GuidCityApp.Droid.Resource.Attribute.spinBars;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::GuidCityApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.spinnerStyle = global::GuidCityApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.splitTrack = global::GuidCityApp.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.srcCompat = global::GuidCityApp.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.stackFromEnd = global::GuidCityApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.state_above_anchor = global::GuidCityApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.state_collapsed = global::GuidCityApp.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.state_collapsible = global::GuidCityApp.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.statusBarBackground = global::GuidCityApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.statusBarScrim = global::GuidCityApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.subMenuArrow = global::GuidCityApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.submitBackground = global::GuidCityApp.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.subtitle = global::GuidCityApp.Droid.Resource.Attribute.subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.subtitleTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.subtitleTextColor = global::GuidCityApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.subtitleTextStyle = global::GuidCityApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.suggestionRowLayout = global::GuidCityApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.switchMinWidth = global::GuidCityApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.switchPadding = global::GuidCityApp.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.switchStyle = global::GuidCityApp.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.switchTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabBackground = global::GuidCityApp.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabContentStart = global::GuidCityApp.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabGravity = global::GuidCityApp.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabIndicatorColor = global::GuidCityApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabIndicatorHeight = global::GuidCityApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabMaxWidth = global::GuidCityApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabMinWidth = global::GuidCityApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabMode = global::GuidCityApp.Droid.Resource.Attribute.tabMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabPadding = global::GuidCityApp.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabPaddingBottom = global::GuidCityApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabPaddingEnd = global::GuidCityApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabPaddingStart = global::GuidCityApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabPaddingTop = global::GuidCityApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabSelectedTextColor = global::GuidCityApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tabTextColor = global::GuidCityApp.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAllCaps = global::GuidCityApp.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceListItem = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceListItemSmall = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::GuidCityApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::GuidCityApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textColorAlertDialogListItem = global::GuidCityApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.textColorSearchUrl = global::GuidCityApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.theme = global::GuidCityApp.Droid.Resource.Attribute.theme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.thickness = global::GuidCityApp.Droid.Resource.Attribute.thickness;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.thumbTextPadding = global::GuidCityApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.thumbTint = global::GuidCityApp.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.thumbTintMode = global::GuidCityApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tickMark = global::GuidCityApp.Droid.Resource.Attribute.tickMark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tickMarkTint = global::GuidCityApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tickMarkTintMode = global::GuidCityApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tint = global::GuidCityApp.Droid.Resource.Attribute.tint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tintMode = global::GuidCityApp.Droid.Resource.Attribute.tintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.title = global::GuidCityApp.Droid.Resource.Attribute.title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleEnabled = global::GuidCityApp.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleMargin = global::GuidCityApp.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleMarginBottom = global::GuidCityApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleMarginEnd = global::GuidCityApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleMargins = global::GuidCityApp.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleMarginStart = global::GuidCityApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleMarginTop = global::GuidCityApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleTextAppearance = global::GuidCityApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleTextColor = global::GuidCityApp.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.titleTextStyle = global::GuidCityApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.toolbarId = global::GuidCityApp.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::GuidCityApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.toolbarStyle = global::GuidCityApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tooltipForegroundColor = global::GuidCityApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tooltipFrameBackground = global::GuidCityApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.tooltipText = global::GuidCityApp.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.track = global::GuidCityApp.Droid.Resource.Attribute.track;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.trackTint = global::GuidCityApp.Droid.Resource.Attribute.trackTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.trackTintMode = global::GuidCityApp.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.useCompatPadding = global::GuidCityApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.voiceIcon = global::GuidCityApp.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowActionBar = global::GuidCityApp.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowActionBarOverlay = global::GuidCityApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowActionModeOverlay = global::GuidCityApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowFixedHeightMajor = global::GuidCityApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowFixedHeightMinor = global::GuidCityApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowFixedWidthMajor = global::GuidCityApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowFixedWidthMinor = global::GuidCityApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowMinWidthMajor = global::GuidCityApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowMinWidthMinor = global::GuidCityApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Attribute.windowNoTitle = global::GuidCityApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::GuidCityApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.XF.Backdrop.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::GuidCityApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::GuidCityApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::GuidCityApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::GuidCityApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::GuidCityApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_btn_colored_text_material = global::GuidCityApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_color_highlight_material = global::GuidCityApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_hint_foreground_material_dark = global::GuidCityApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_hint_foreground_material_light = global::GuidCityApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_input_method_navigation_guard = global::GuidCityApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::GuidCityApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::GuidCityApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_primary_text_material_dark = global::GuidCityApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_primary_text_material_light = global::GuidCityApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_search_url_text = global::GuidCityApp.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_search_url_text_normal = global::GuidCityApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_search_url_text_pressed = global::GuidCityApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_search_url_text_selected = global::GuidCityApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_secondary_text_material_dark = global::GuidCityApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_secondary_text_material_light = global::GuidCityApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_tint_btn_checkable = global::GuidCityApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_tint_default = global::GuidCityApp.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_tint_edittext = global::GuidCityApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_tint_seek_thumb = global::GuidCityApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_tint_spinner = global::GuidCityApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.abc_tint_switch_track = global::GuidCityApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.accent_material_dark = global::GuidCityApp.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.accent_material_light = global::GuidCityApp.Droid.Resource.Color.accent_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.background_floating_material_dark = global::GuidCityApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.background_floating_material_light = global::GuidCityApp.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.background_material_dark = global::GuidCityApp.Droid.Resource.Color.background_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.background_material_light = global::GuidCityApp.Droid.Resource.Color.background_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::GuidCityApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.bright_foreground_disabled_material_light = global::GuidCityApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::GuidCityApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.bright_foreground_inverse_material_light = global::GuidCityApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.bright_foreground_material_dark = global::GuidCityApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.bright_foreground_material_light = global::GuidCityApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.button_material_dark = global::GuidCityApp.Droid.Resource.Color.button_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.button_material_light = global::GuidCityApp.Droid.Resource.Color.button_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.cardview_dark_background = global::GuidCityApp.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.cardview_light_background = global::GuidCityApp.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.cardview_shadow_end_color = global::GuidCityApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.cardview_shadow_start_color = global::GuidCityApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::GuidCityApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_error = global::GuidCityApp.Droid.Resource.Color.design_error;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_shadow_end_color = global::GuidCityApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_shadow_mid_color = global::GuidCityApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_shadow_start_color = global::GuidCityApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::GuidCityApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::GuidCityApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::GuidCityApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::GuidCityApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_snackbar_background_color = global::GuidCityApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.design_tint_password_toggle = global::GuidCityApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::GuidCityApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.dim_foreground_disabled_material_light = global::GuidCityApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.dim_foreground_material_dark = global::GuidCityApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.dim_foreground_material_light = global::GuidCityApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.foreground_material_dark = global::GuidCityApp.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.foreground_material_light = global::GuidCityApp.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.highlighted_text_material_dark = global::GuidCityApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.highlighted_text_material_light = global::GuidCityApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_blue_grey_800 = global::GuidCityApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_blue_grey_900 = global::GuidCityApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_blue_grey_950 = global::GuidCityApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_deep_teal_200 = global::GuidCityApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_deep_teal_500 = global::GuidCityApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_100 = global::GuidCityApp.Droid.Resource.Color.material_grey_100;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_300 = global::GuidCityApp.Droid.Resource.Color.material_grey_300;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_50 = global::GuidCityApp.Droid.Resource.Color.material_grey_50;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_600 = global::GuidCityApp.Droid.Resource.Color.material_grey_600;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_800 = global::GuidCityApp.Droid.Resource.Color.material_grey_800;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_850 = global::GuidCityApp.Droid.Resource.Color.material_grey_850;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.material_grey_900 = global::GuidCityApp.Droid.Resource.Color.material_grey_900;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.notification_action_color_filter = global::GuidCityApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.notification_icon_bg_color = global::GuidCityApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.notification_material_background_media_default_color = global::GuidCityApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_dark_material_dark = global::GuidCityApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_dark_material_light = global::GuidCityApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_material_dark = global::GuidCityApp.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_material_light = global::GuidCityApp.Droid.Resource.Color.primary_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_text_default_material_dark = global::GuidCityApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_text_default_material_light = global::GuidCityApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_text_disabled_material_dark = global::GuidCityApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.primary_text_disabled_material_light = global::GuidCityApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.ripple_material_dark = global::GuidCityApp.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.ripple_material_light = global::GuidCityApp.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.secondary_text_default_material_dark = global::GuidCityApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.secondary_text_default_material_light = global::GuidCityApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.secondary_text_disabled_material_dark = global::GuidCityApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.secondary_text_disabled_material_light = global::GuidCityApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::GuidCityApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.switch_thumb_disabled_material_light = global::GuidCityApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.switch_thumb_material_dark = global::GuidCityApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.switch_thumb_material_light = global::GuidCityApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.switch_thumb_normal_material_dark = global::GuidCityApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.switch_thumb_normal_material_light = global::GuidCityApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.tooltip_background_dark = global::GuidCityApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Color.tooltip_background_light = global::GuidCityApp.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_button_min_height_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_button_min_width_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::GuidCityApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::GuidCityApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::GuidCityApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::GuidCityApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::GuidCityApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::GuidCityApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::GuidCityApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::GuidCityApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_control_corner_material = global::GuidCityApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_control_inset_material = global::GuidCityApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_control_padding_material = global::GuidCityApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_min_width_major = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_padding_material = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::GuidCityApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::GuidCityApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::GuidCityApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::GuidCityApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::GuidCityApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::GuidCityApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::GuidCityApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::GuidCityApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::GuidCityApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_floating_window_z = global::GuidCityApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::GuidCityApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_panel_menu_list_width = global::GuidCityApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_progress_bar_height_material = global::GuidCityApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_search_view_preferred_height = global::GuidCityApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_search_view_preferred_width = global::GuidCityApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::GuidCityApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::GuidCityApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::GuidCityApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_switch_padding = global::GuidCityApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_body_1_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_body_2_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_button_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_caption_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_display_1_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_display_2_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_display_3_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_display_4_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_headline_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_large_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_medium_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_menu_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_small_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_subhead_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_title_material = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::GuidCityApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::GuidCityApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.cardview_default_elevation = global::GuidCityApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.cardview_default_radius = global::GuidCityApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::GuidCityApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::GuidCityApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::GuidCityApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::GuidCityApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.compat_control_corner_material = global::GuidCityApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_appbar_elevation = global::GuidCityApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_height = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_margin = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::GuidCityApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_fab_border_width = global::GuidCityApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_fab_elevation = global::GuidCityApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_fab_image_size = global::GuidCityApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_fab_size_mini = global::GuidCityApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_fab_size_normal = global::GuidCityApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::GuidCityApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_navigation_elevation = global::GuidCityApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_navigation_icon_padding = global::GuidCityApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_navigation_icon_size = global::GuidCityApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_navigation_max_width = global::GuidCityApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_navigation_padding_bottom = global::GuidCityApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::GuidCityApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_elevation = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_max_width = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_min_width = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_snackbar_text_size = global::GuidCityApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_tab_max_width = global::GuidCityApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::GuidCityApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_tab_text_size = global::GuidCityApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.design_tab_text_size_2line = global::GuidCityApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.disabled_alpha_material_dark = global::GuidCityApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.disabled_alpha_material_light = global::GuidCityApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.fastscroll_default_thickness = global::GuidCityApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.fastscroll_margin = global::GuidCityApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.fastscroll_minimum_range = global::GuidCityApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.highlight_alpha_material_colored = global::GuidCityApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.highlight_alpha_material_dark = global::GuidCityApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.highlight_alpha_material_light = global::GuidCityApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.hint_alpha_material_dark = global::GuidCityApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.hint_alpha_material_light = global::GuidCityApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::GuidCityApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::GuidCityApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::GuidCityApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::GuidCityApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::GuidCityApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::GuidCityApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::GuidCityApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::GuidCityApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::GuidCityApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::GuidCityApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::GuidCityApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_elevation = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_focused_z = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_inset = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_padding_left = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_padding_right = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_padding_top = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_text_size = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.mtrl_btn_z = global::GuidCityApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_action_icon_size = global::GuidCityApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_action_text_size = global::GuidCityApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_big_circle_margin = global::GuidCityApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_content_margin_start = global::GuidCityApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_large_icon_height = global::GuidCityApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_large_icon_width = global::GuidCityApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_main_column_padding_top = global::GuidCityApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_media_narrow_margin = global::GuidCityApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_right_icon_size = global::GuidCityApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_right_side_padding_top = global::GuidCityApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_small_icon_background_padding = global::GuidCityApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::GuidCityApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_subtext_size = global::GuidCityApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_top_pad = global::GuidCityApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.notification_top_pad_large_text = global::GuidCityApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_corner_radius = global::GuidCityApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_horizontal_padding = global::GuidCityApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_margin = global::GuidCityApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::GuidCityApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::GuidCityApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_vertical_padding = global::GuidCityApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::GuidCityApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.XF.Backdrop.Droid.Resource.Dimension.tooltip_y_offset_touch = global::GuidCityApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::GuidCityApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_borderless_material = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_check_material = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_colored_material = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_radio_material = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::GuidCityApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::GuidCityApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_cab_background_top_material = global::GuidCityApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_control_background_material = global::GuidCityApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_dialog_material_background = global::GuidCityApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_edit_text_material = global::GuidCityApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_ab_back_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_clear_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_search_api_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_item_background_holo_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_item_background_holo_light = global::GuidCityApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_focused_holo = global::GuidCityApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_longpressed_holo = global::GuidCityApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::GuidCityApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::GuidCityApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::GuidCityApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_list_selector_holo_light = global::GuidCityApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::GuidCityApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::GuidCityApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ratingbar_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_ratingbar_small_material = global::GuidCityApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::GuidCityApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::GuidCityApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::GuidCityApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::GuidCityApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_seekbar_track_material = global::GuidCityApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::GuidCityApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_switch_thumb_material = global::GuidCityApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_tab_indicator_material = global::GuidCityApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::GuidCityApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_textfield_search_material = global::GuidCityApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_cursor_material = global::GuidCityApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::GuidCityApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::GuidCityApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::GuidCityApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::GuidCityApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.abc_vector_test = global::GuidCityApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.avd_hide_password = global::GuidCityApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.avd_show_password = global::GuidCityApp.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::GuidCityApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.design_fab_background = global::GuidCityApp.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.design_ic_visibility = global::GuidCityApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.design_ic_visibility_off = global::GuidCityApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.design_password_eye = global::GuidCityApp.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.design_snackbar_background = global::GuidCityApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_audiotrack_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_audiotrack_light = global::GuidCityApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_dialog_close_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_dialog_close_light = global::GuidCityApp.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_00 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_01 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_02 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_03 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_04 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_05 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_06 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_07 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_08 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_09 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_10 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_11 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_12 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_13 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_14 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_collapse_15 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_00 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_01 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_02 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_03 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_04 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_05 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_06 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_07 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_08 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_09 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_10 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_11 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_12 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_13 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_14 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_group_expand_15 = global::GuidCityApp.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_media_pause_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_media_pause_light = global::GuidCityApp.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_media_play_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_media_play_light = global::GuidCityApp.Droid.Resource.Drawable.ic_media_play_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_media_stop_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_media_stop_light = global::GuidCityApp.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_mr_button_grey = global::GuidCityApp.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::GuidCityApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::GuidCityApp.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::GuidCityApp.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.ic_vol_type_tv_light = global::GuidCityApp.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_button_connected_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_button_connected_light = global::GuidCityApp.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_button_connecting_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_button_connecting_light = global::GuidCityApp.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_button_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_button_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_button_light = global::GuidCityApp.Droid.Resource.Drawable.mr_button_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_dialog_close_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_dialog_close_light = global::GuidCityApp.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_dialog_material_background_light = global::GuidCityApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_group_collapse = global::GuidCityApp.Droid.Resource.Drawable.mr_group_collapse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_group_expand = global::GuidCityApp.Droid.Resource.Drawable.mr_group_expand;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_media_pause_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_media_pause_light = global::GuidCityApp.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_media_play_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_media_play_light = global::GuidCityApp.Droid.Resource.Drawable.mr_media_play_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_media_stop_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_media_stop_light = global::GuidCityApp.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::GuidCityApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::GuidCityApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.navigation_empty_icon = global::GuidCityApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_action_background = global::GuidCityApp.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_bg = global::GuidCityApp.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_bg_low = global::GuidCityApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_bg_low_normal = global::GuidCityApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_bg_low_pressed = global::GuidCityApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_bg_normal = global::GuidCityApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_bg_normal_pressed = global::GuidCityApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_icon_background = global::GuidCityApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_template_icon_bg = global::GuidCityApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_template_icon_low_bg = global::GuidCityApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notification_tile_bg = global::GuidCityApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::GuidCityApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.tooltip_frame_dark = global::GuidCityApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Drawable.tooltip_frame_light = global::GuidCityApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action0 = global::GuidCityApp.Droid.Resource.Id.action0;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.actions = global::GuidCityApp.Droid.Resource.Id.actions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar = global::GuidCityApp.Droid.Resource.Id.action_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar_activity_content = global::GuidCityApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar_container = global::GuidCityApp.Droid.Resource.Id.action_bar_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar_root = global::GuidCityApp.Droid.Resource.Id.action_bar_root;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar_spinner = global::GuidCityApp.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar_subtitle = global::GuidCityApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_bar_title = global::GuidCityApp.Droid.Resource.Id.action_bar_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_container = global::GuidCityApp.Droid.Resource.Id.action_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_context_bar = global::GuidCityApp.Droid.Resource.Id.action_context_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_divider = global::GuidCityApp.Droid.Resource.Id.action_divider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_image = global::GuidCityApp.Droid.Resource.Id.action_image;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_menu_divider = global::GuidCityApp.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_menu_presenter = global::GuidCityApp.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_mode_bar = global::GuidCityApp.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_mode_bar_stub = global::GuidCityApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_mode_close_button = global::GuidCityApp.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.action_text = global::GuidCityApp.Droid.Resource.Id.action_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.activity_chooser_view_content = global::GuidCityApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.add = global::GuidCityApp.Droid.Resource.Id.add;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.alertTitle = global::GuidCityApp.Droid.Resource.Id.alertTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.all = global::GuidCityApp.Droid.Resource.Id.all;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.ALT = global::GuidCityApp.Droid.Resource.Id.ALT;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.always = global::GuidCityApp.Droid.Resource.Id.always;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.async = global::GuidCityApp.Droid.Resource.Id.async;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.auto = global::GuidCityApp.Droid.Resource.Id.auto;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.beginning = global::GuidCityApp.Droid.Resource.Id.beginning;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.blocking = global::GuidCityApp.Droid.Resource.Id.blocking;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.bottom = global::GuidCityApp.Droid.Resource.Id.bottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.bottomtab_navarea = global::GuidCityApp.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.bottomtab_tabbar = global::GuidCityApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.buttonPanel = global::GuidCityApp.Droid.Resource.Id.buttonPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.cancel_action = global::GuidCityApp.Droid.Resource.Id.cancel_action;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.center = global::GuidCityApp.Droid.Resource.Id.center;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.center_horizontal = global::GuidCityApp.Droid.Resource.Id.center_horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.center_vertical = global::GuidCityApp.Droid.Resource.Id.center_vertical;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.checkbox = global::GuidCityApp.Droid.Resource.Id.checkbox;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.chronometer = global::GuidCityApp.Droid.Resource.Id.chronometer;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.clip_horizontal = global::GuidCityApp.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.clip_vertical = global::GuidCityApp.Droid.Resource.Id.clip_vertical;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.collapseActionView = global::GuidCityApp.Droid.Resource.Id.collapseActionView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.container = global::GuidCityApp.Droid.Resource.Id.container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.contentPanel = global::GuidCityApp.Droid.Resource.Id.contentPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.coordinator = global::GuidCityApp.Droid.Resource.Id.coordinator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.CTRL = global::GuidCityApp.Droid.Resource.Id.CTRL;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.custom = global::GuidCityApp.Droid.Resource.Id.custom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.customPanel = global::GuidCityApp.Droid.Resource.Id.customPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.decor_content_parent = global::GuidCityApp.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.default_activity_button = global::GuidCityApp.Droid.Resource.Id.default_activity_button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.design_bottom_sheet = global::GuidCityApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.design_menu_item_action_area = global::GuidCityApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.design_menu_item_action_area_stub = global::GuidCityApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.design_menu_item_text = global::GuidCityApp.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.design_navigation_view = global::GuidCityApp.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.disableHome = global::GuidCityApp.Droid.Resource.Id.disableHome;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.edit_query = global::GuidCityApp.Droid.Resource.Id.edit_query;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.end = global::GuidCityApp.Droid.Resource.Id.end;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.end_padder = global::GuidCityApp.Droid.Resource.Id.end_padder;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.enterAlways = global::GuidCityApp.Droid.Resource.Id.enterAlways;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.enterAlwaysCollapsed = global::GuidCityApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.exitUntilCollapsed = global::GuidCityApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.expanded_menu = global::GuidCityApp.Droid.Resource.Id.expanded_menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.expand_activities_button = global::GuidCityApp.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.fill = global::GuidCityApp.Droid.Resource.Id.fill;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.fill_horizontal = global::GuidCityApp.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.fill_vertical = global::GuidCityApp.Droid.Resource.Id.fill_vertical;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.@fixed = global::GuidCityApp.Droid.Resource.Id.@fixed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.flyoutcontent_appbar = global::GuidCityApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.flyoutcontent_recycler = global::GuidCityApp.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.forever = global::GuidCityApp.Droid.Resource.Id.forever;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.FUNCTION = global::GuidCityApp.Droid.Resource.Id.FUNCTION;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.ghost_view = global::GuidCityApp.Droid.Resource.Id.ghost_view;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.home = global::GuidCityApp.Droid.Resource.Id.home;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.homeAsUp = global::GuidCityApp.Droid.Resource.Id.homeAsUp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.icon = global::GuidCityApp.Droid.Resource.Id.icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.icon_group = global::GuidCityApp.Droid.Resource.Id.icon_group;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.ifRoom = global::GuidCityApp.Droid.Resource.Id.ifRoom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.image = global::GuidCityApp.Droid.Resource.Id.image;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.info = global::GuidCityApp.Droid.Resource.Id.info;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.italic = global::GuidCityApp.Droid.Resource.Id.italic;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.item_touch_helper_previous_elevation = global::GuidCityApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.largeLabel = global::GuidCityApp.Droid.Resource.Id.largeLabel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.left = global::GuidCityApp.Droid.Resource.Id.left;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.line1 = global::GuidCityApp.Droid.Resource.Id.line1;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.line3 = global::GuidCityApp.Droid.Resource.Id.line3;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.listMode = global::GuidCityApp.Droid.Resource.Id.listMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.list_item = global::GuidCityApp.Droid.Resource.Id.list_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.main_appbar = global::GuidCityApp.Droid.Resource.Id.main_appbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.main_tablayout = global::GuidCityApp.Droid.Resource.Id.main_tablayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.main_toolbar = global::GuidCityApp.Droid.Resource.Id.main_toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.masked = global::GuidCityApp.Droid.Resource.Id.masked;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.media_actions = global::GuidCityApp.Droid.Resource.Id.media_actions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.message = global::GuidCityApp.Droid.Resource.Id.message;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.META = global::GuidCityApp.Droid.Resource.Id.META;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.middle = global::GuidCityApp.Droid.Resource.Id.middle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mini = global::GuidCityApp.Droid.Resource.Id.mini;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_art = global::GuidCityApp.Droid.Resource.Id.mr_art;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_chooser_list = global::GuidCityApp.Droid.Resource.Id.mr_chooser_list;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_chooser_route_desc = global::GuidCityApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_chooser_route_icon = global::GuidCityApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_chooser_route_name = global::GuidCityApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_chooser_title = global::GuidCityApp.Droid.Resource.Id.mr_chooser_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_close = global::GuidCityApp.Droid.Resource.Id.mr_close;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_control_divider = global::GuidCityApp.Droid.Resource.Id.mr_control_divider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_control_playback_ctrl = global::GuidCityApp.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_control_subtitle = global::GuidCityApp.Droid.Resource.Id.mr_control_subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_control_title = global::GuidCityApp.Droid.Resource.Id.mr_control_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_control_title_container = global::GuidCityApp.Droid.Resource.Id.mr_control_title_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_custom_control = global::GuidCityApp.Droid.Resource.Id.mr_custom_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_default_control = global::GuidCityApp.Droid.Resource.Id.mr_default_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_dialog_area = global::GuidCityApp.Droid.Resource.Id.mr_dialog_area;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_expandable_area = global::GuidCityApp.Droid.Resource.Id.mr_expandable_area;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_group_expand_collapse = global::GuidCityApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_media_main_control = global::GuidCityApp.Droid.Resource.Id.mr_media_main_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_name = global::GuidCityApp.Droid.Resource.Id.mr_name;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_playback_control = global::GuidCityApp.Droid.Resource.Id.mr_playback_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_title_bar = global::GuidCityApp.Droid.Resource.Id.mr_title_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_volume_control = global::GuidCityApp.Droid.Resource.Id.mr_volume_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_volume_group_list = global::GuidCityApp.Droid.Resource.Id.mr_volume_group_list;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_volume_item_icon = global::GuidCityApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.mr_volume_slider = global::GuidCityApp.Droid.Resource.Id.mr_volume_slider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.multiply = global::GuidCityApp.Droid.Resource.Id.multiply;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.navigation_header_container = global::GuidCityApp.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.never = global::GuidCityApp.Droid.Resource.Id.never;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.none = global::GuidCityApp.Droid.Resource.Id.none;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.normal = global::GuidCityApp.Droid.Resource.Id.normal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.notification_background = global::GuidCityApp.Droid.Resource.Id.notification_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.notification_main_column = global::GuidCityApp.Droid.Resource.Id.notification_main_column;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.notification_main_column_container = global::GuidCityApp.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.parallax = global::GuidCityApp.Droid.Resource.Id.parallax;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.parentPanel = global::GuidCityApp.Droid.Resource.Id.parentPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.parent_matrix = global::GuidCityApp.Droid.Resource.Id.parent_matrix;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.pin = global::GuidCityApp.Droid.Resource.Id.pin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.progress_circular = global::GuidCityApp.Droid.Resource.Id.progress_circular;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.progress_horizontal = global::GuidCityApp.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.radio = global::GuidCityApp.Droid.Resource.Id.radio;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.right = global::GuidCityApp.Droid.Resource.Id.right;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.right_icon = global::GuidCityApp.Droid.Resource.Id.right_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.right_side = global::GuidCityApp.Droid.Resource.Id.right_side;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.save_image_matrix = global::GuidCityApp.Droid.Resource.Id.save_image_matrix;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.save_non_transition_alpha = global::GuidCityApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.save_scale_type = global::GuidCityApp.Droid.Resource.Id.save_scale_type;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.screen = global::GuidCityApp.Droid.Resource.Id.screen;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.scroll = global::GuidCityApp.Droid.Resource.Id.scroll;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.scrollable = global::GuidCityApp.Droid.Resource.Id.scrollable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.scrollIndicatorDown = global::GuidCityApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.scrollIndicatorUp = global::GuidCityApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.scrollView = global::GuidCityApp.Droid.Resource.Id.scrollView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_badge = global::GuidCityApp.Droid.Resource.Id.search_badge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_bar = global::GuidCityApp.Droid.Resource.Id.search_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_button = global::GuidCityApp.Droid.Resource.Id.search_button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_close_btn = global::GuidCityApp.Droid.Resource.Id.search_close_btn;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_edit_frame = global::GuidCityApp.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_go_btn = global::GuidCityApp.Droid.Resource.Id.search_go_btn;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_mag_icon = global::GuidCityApp.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_plate = global::GuidCityApp.Droid.Resource.Id.search_plate;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_src_text = global::GuidCityApp.Droid.Resource.Id.search_src_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.search_voice_btn = global::GuidCityApp.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.select_dialog_listview = global::GuidCityApp.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.shellcontent_appbar = global::GuidCityApp.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.shellcontent_toolbar = global::GuidCityApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.SHIFT = global::GuidCityApp.Droid.Resource.Id.SHIFT;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.shortcut = global::GuidCityApp.Droid.Resource.Id.shortcut;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.showCustom = global::GuidCityApp.Droid.Resource.Id.showCustom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.showHome = global::GuidCityApp.Droid.Resource.Id.showHome;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.showTitle = global::GuidCityApp.Droid.Resource.Id.showTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.smallLabel = global::GuidCityApp.Droid.Resource.Id.smallLabel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.snackbar_action = global::GuidCityApp.Droid.Resource.Id.snackbar_action;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.snackbar_text = global::GuidCityApp.Droid.Resource.Id.snackbar_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.snap = global::GuidCityApp.Droid.Resource.Id.snap;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.spacer = global::GuidCityApp.Droid.Resource.Id.spacer;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.split_action_bar = global::GuidCityApp.Droid.Resource.Id.split_action_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.src_atop = global::GuidCityApp.Droid.Resource.Id.src_atop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.src_in = global::GuidCityApp.Droid.Resource.Id.src_in;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.src_over = global::GuidCityApp.Droid.Resource.Id.src_over;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.start = global::GuidCityApp.Droid.Resource.Id.start;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.status_bar_latest_event_content = global::GuidCityApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.submenuarrow = global::GuidCityApp.Droid.Resource.Id.submenuarrow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.submit_area = global::GuidCityApp.Droid.Resource.Id.submit_area;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.SYM = global::GuidCityApp.Droid.Resource.Id.SYM;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.tabMode = global::GuidCityApp.Droid.Resource.Id.tabMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.tag_transition_group = global::GuidCityApp.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.text = global::GuidCityApp.Droid.Resource.Id.text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.text2 = global::GuidCityApp.Droid.Resource.Id.text2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.textinput_counter = global::GuidCityApp.Droid.Resource.Id.textinput_counter;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.textinput_error = global::GuidCityApp.Droid.Resource.Id.textinput_error;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.textSpacerNoButtons = global::GuidCityApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.textSpacerNoTitle = global::GuidCityApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.text_input_password_toggle = global::GuidCityApp.Droid.Resource.Id.text_input_password_toggle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.time = global::GuidCityApp.Droid.Resource.Id.time;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.title = global::GuidCityApp.Droid.Resource.Id.title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.titleDividerNoCustom = global::GuidCityApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.title_template = global::GuidCityApp.Droid.Resource.Id.title_template;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.top = global::GuidCityApp.Droid.Resource.Id.top;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.topPanel = global::GuidCityApp.Droid.Resource.Id.topPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.touch_outside = global::GuidCityApp.Droid.Resource.Id.touch_outside;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.transition_current_scene = global::GuidCityApp.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.transition_layout_save = global::GuidCityApp.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.transition_position = global::GuidCityApp.Droid.Resource.Id.transition_position;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.transition_scene_layoutid_cache = global::GuidCityApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.transition_transform = global::GuidCityApp.Droid.Resource.Id.transition_transform;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.uniform = global::GuidCityApp.Droid.Resource.Id.uniform;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.up = global::GuidCityApp.Droid.Resource.Id.up;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.useLogo = global::GuidCityApp.Droid.Resource.Id.useLogo;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.view_offset_helper = global::GuidCityApp.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.visible = global::GuidCityApp.Droid.Resource.Id.visible;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.volume_item_container = global::GuidCityApp.Droid.Resource.Id.volume_item_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.withText = global::GuidCityApp.Droid.Resource.Id.withText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Id.wrap_content = global::GuidCityApp.Droid.Resource.Id.wrap_content;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.abc_config_activityDefaultDur = global::GuidCityApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.abc_config_activityShortDur = global::GuidCityApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::GuidCityApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.bottom_sheet_slide_duration = global::GuidCityApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.cancel_button_image_alpha = global::GuidCityApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.config_tooltipAnimTime = global::GuidCityApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.design_snackbar_text_max_lines = global::GuidCityApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.hide_password_duration = global::GuidCityApp.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::GuidCityApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::GuidCityApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::GuidCityApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.show_password_duration = global::GuidCityApp.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.XF.Backdrop.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::GuidCityApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.XF.Backdrop.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::GuidCityApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Plugin.XF.Backdrop.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::GuidCityApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_action_bar_title_item = global::GuidCityApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_action_bar_up_container = global::GuidCityApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_action_menu_item_layout = global::GuidCityApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_action_menu_layout = global::GuidCityApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_action_mode_bar = global::GuidCityApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_action_mode_close_item_material = global::GuidCityApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_activity_chooser_view = global::GuidCityApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::GuidCityApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::GuidCityApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_alert_dialog_material = global::GuidCityApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_alert_dialog_title_material = global::GuidCityApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_dialog_title_material = global::GuidCityApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_expanded_menu_layout = global::GuidCityApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::GuidCityApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_list_menu_item_icon = global::GuidCityApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_list_menu_item_layout = global::GuidCityApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_list_menu_item_radio = global::GuidCityApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::GuidCityApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_popup_menu_item_layout = global::GuidCityApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_screen_content_include = global::GuidCityApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_screen_simple = global::GuidCityApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::GuidCityApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_screen_toolbar = global::GuidCityApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::GuidCityApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_search_view = global::GuidCityApp.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.abc_select_dialog_material = global::GuidCityApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.BottomTabLayout = global::GuidCityApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_bottom_navigation_item = global::GuidCityApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_bottom_sheet_dialog = global::GuidCityApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_layout_snackbar = global::GuidCityApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_layout_snackbar_include = global::GuidCityApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_layout_tab_icon = global::GuidCityApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_layout_tab_text = global::GuidCityApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_menu_item_action_area = global::GuidCityApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_navigation_item = global::GuidCityApp.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_navigation_item_header = global::GuidCityApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_navigation_item_separator = global::GuidCityApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_navigation_item_subheader = global::GuidCityApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_navigation_menu = global::GuidCityApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_navigation_menu_item = global::GuidCityApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.design_text_input_password_icon = global::GuidCityApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.FlyoutContent = global::GuidCityApp.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.mr_chooser_dialog = global::GuidCityApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.mr_chooser_list_item = global::GuidCityApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.mr_controller_material_dialog_b = global::GuidCityApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.mr_controller_volume_item = global::GuidCityApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.mr_playback_control = global::GuidCityApp.Droid.Resource.Layout.mr_playback_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.mr_volume_control = global::GuidCityApp.Droid.Resource.Layout.mr_volume_control;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_action = global::GuidCityApp.Droid.Resource.Layout.notification_action;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_action_tombstone = global::GuidCityApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_media_action = global::GuidCityApp.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_media_cancel_action = global::GuidCityApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_big_media = global::GuidCityApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_big_media_custom = global::GuidCityApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_big_media_narrow = global::GuidCityApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::GuidCityApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_custom_big = global::GuidCityApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_icon_group = global::GuidCityApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_lines_media = global::GuidCityApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_media = global::GuidCityApp.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_media_custom = global::GuidCityApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_part_chronometer = global::GuidCityApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.notification_template_part_time = global::GuidCityApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.RootLayout = global::GuidCityApp.Droid.Resource.Layout.RootLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.select_dialog_item_material = global::GuidCityApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.select_dialog_multichoice_material = global::GuidCityApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.select_dialog_singlechoice_material = global::GuidCityApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.ShellContent = global::GuidCityApp.Droid.Resource.Layout.ShellContent;
+			global::Plugin.XF.Backdrop.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::GuidCityApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_action_bar_home_description = global::GuidCityApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_action_bar_up_description = global::GuidCityApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_action_menu_overflow_description = global::GuidCityApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_action_mode_done = global::GuidCityApp.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_activitychooserview_choose_application = global::GuidCityApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_activity_chooser_view_see_all = global::GuidCityApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_capital_off = global::GuidCityApp.Droid.Resource.String.abc_capital_off;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_capital_on = global::GuidCityApp.Droid.Resource.String.abc_capital_on;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_body_1_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_body_2_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_button_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_button_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_caption_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_display_1_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_display_2_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_display_3_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_display_4_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_headline_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_menu_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_subhead_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_font_family_title_material = global::GuidCityApp.Droid.Resource.String.abc_font_family_title_material;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_searchview_description_clear = global::GuidCityApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_searchview_description_query = global::GuidCityApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_searchview_description_search = global::GuidCityApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_searchview_description_submit = global::GuidCityApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_searchview_description_voice = global::GuidCityApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_search_hint = global::GuidCityApp.Droid.Resource.String.abc_search_hint;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_shareactionprovider_share_with = global::GuidCityApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::GuidCityApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.abc_toolbar_collapse_description = global::GuidCityApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.appbar_scrolling_view_behavior = global::GuidCityApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.app_name = global::GuidCityApp.Droid.Resource.String.app_name;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.bottom_sheet_behavior = global::GuidCityApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.character_counter_pattern = global::GuidCityApp.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.hello = global::GuidCityApp.Droid.Resource.String.hello;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_button_content_description = global::GuidCityApp.Droid.Resource.String.mr_button_content_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_cast_button_connected = global::GuidCityApp.Droid.Resource.String.mr_cast_button_connected;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_cast_button_connecting = global::GuidCityApp.Droid.Resource.String.mr_cast_button_connecting;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_cast_button_disconnected = global::GuidCityApp.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_chooser_searching = global::GuidCityApp.Droid.Resource.String.mr_chooser_searching;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_chooser_title = global::GuidCityApp.Droid.Resource.String.mr_chooser_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_album_art = global::GuidCityApp.Droid.Resource.String.mr_controller_album_art;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_casting_screen = global::GuidCityApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_close_description = global::GuidCityApp.Droid.Resource.String.mr_controller_close_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_collapse_group = global::GuidCityApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_disconnect = global::GuidCityApp.Droid.Resource.String.mr_controller_disconnect;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_expand_group = global::GuidCityApp.Droid.Resource.String.mr_controller_expand_group;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_no_info_available = global::GuidCityApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_no_media_selected = global::GuidCityApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_pause = global::GuidCityApp.Droid.Resource.String.mr_controller_pause;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_play = global::GuidCityApp.Droid.Resource.String.mr_controller_play;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_stop = global::GuidCityApp.Droid.Resource.String.mr_controller_stop;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_stop_casting = global::GuidCityApp.Droid.Resource.String.mr_controller_stop_casting;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_controller_volume_slider = global::GuidCityApp.Droid.Resource.String.mr_controller_volume_slider;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_system_route_name = global::GuidCityApp.Droid.Resource.String.mr_system_route_name;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.mr_user_route_category_name = global::GuidCityApp.Droid.Resource.String.mr_user_route_category_name;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.password_toggle_content_description = global::GuidCityApp.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.path_password_eye = global::GuidCityApp.Droid.Resource.String.path_password_eye;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.path_password_eye_mask_strike_through = global::GuidCityApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.path_password_eye_mask_visible = global::GuidCityApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.path_password_strike_through = global::GuidCityApp.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.search_menu_title = global::GuidCityApp.Droid.Resource.String.search_menu_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.String.status_bar_notification_info_overflow = global::GuidCityApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.AlertDialog_AppCompat = global::GuidCityApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Animation_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::GuidCityApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::GuidCityApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::GuidCityApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::GuidCityApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::GuidCityApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_CardView = global::GuidCityApp.Droid.Resource.Style.Base_CardView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::GuidCityApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::GuidCityApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::GuidCityApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::GuidCityApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::GuidCityApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::GuidCityApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::GuidCityApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::GuidCityApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::GuidCityApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.CardView = global::GuidCityApp.Droid.Resource.Style.CardView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.CardView_Dark = global::GuidCityApp.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.CardView_Light = global::GuidCityApp.Droid.Resource.Style.CardView_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_AppCompat = global::GuidCityApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::GuidCityApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::GuidCityApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_V21_AppCompat = global::GuidCityApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_V25_AppCompat = global::GuidCityApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::GuidCityApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::GuidCityApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::GuidCityApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::GuidCityApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::GuidCityApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_Counter = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_Error = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_Hint = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Design_Tab = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::GuidCityApp.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::GuidCityApp.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::GuidCityApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::GuidCityApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Dialog = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_Design = global::GuidCityApp.Droid.Resource.Style.Theme_Design;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::GuidCityApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_Design_Light = global::GuidCityApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::GuidCityApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_Design_NoActionBar = global::GuidCityApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_MediaRouter = global::GuidCityApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_MediaRouter_Light = global::GuidCityApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::GuidCityApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::GuidCityApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Button = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_EditText = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ListView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_SearchView = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Spinner = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::GuidCityApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::GuidCityApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::GuidCityApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_AppBarLayout = global::GuidCityApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::GuidCityApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::GuidCityApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::GuidCityApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::GuidCityApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_NavigationView = global::GuidCityApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::GuidCityApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_Snackbar = global::GuidCityApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_TabLayout = global::GuidCityApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_Design_TextInputLayout = global::GuidCityApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::GuidCityApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::GuidCityApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar = global::GuidCityApp.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBarLayout = global::GuidCityApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::GuidCityApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_background = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_displayOptions = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_divider = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_elevation = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_height = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_homeLayout = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_icon = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_itemPadding = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_logo = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_navigationMode = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_popupTheme = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_subtitle = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_title = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::GuidCityApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMenuItemView = global::GuidCityApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::GuidCityApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMenuView = global::GuidCityApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode = global::GuidCityApp.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode_background = global::GuidCityApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::GuidCityApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::GuidCityApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode_height = global::GuidCityApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::GuidCityApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::GuidCityApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActivityChooserView = global::GuidCityApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::GuidCityApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::GuidCityApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_android_layout = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_listLayout = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_showTitle = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::GuidCityApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayoutStates = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_android_background = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_elevation = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_expanded = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_Layout = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::GuidCityApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatImageView = global::GuidCityApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatImageView_android_src = global::GuidCityApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::GuidCityApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatImageView_tint = global::GuidCityApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::GuidCityApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatSeekBar = global::GuidCityApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::GuidCityApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::GuidCityApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::GuidCityApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::GuidCityApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorError = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::GuidCityApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomNavigationView = global::GuidCityApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomNavigationView_elevation = global::GuidCityApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::GuidCityApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::GuidCityApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::GuidCityApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomNavigationView_menu = global::GuidCityApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::GuidCityApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::GuidCityApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::GuidCityApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::GuidCityApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ButtonBarLayout = global::GuidCityApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::GuidCityApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView = global::GuidCityApp.Droid.Resource.Styleable.CardView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_android_minHeight = global::GuidCityApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_android_minWidth = global::GuidCityApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::GuidCityApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_cardCornerRadius = global::GuidCityApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_cardElevation = global::GuidCityApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_cardMaxElevation = global::GuidCityApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::GuidCityApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::GuidCityApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_contentPadding = global::GuidCityApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::GuidCityApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::GuidCityApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_contentPaddingRight = global::GuidCityApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CardView_contentPaddingTop = global::GuidCityApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::GuidCityApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ColorStateListItem = global::GuidCityApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ColorStateListItem_alpha = global::GuidCityApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::GuidCityApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ColorStateListItem_android_color = global::GuidCityApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CompoundButton = global::GuidCityApp.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CompoundButton_android_button = global::GuidCityApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CompoundButton_buttonTint = global::GuidCityApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::GuidCityApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::GuidCityApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DesignTheme = global::GuidCityApp.Droid.Resource.Styleable.DesignTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::GuidCityApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::GuidCityApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_color = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::GuidCityApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_elevation = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::GuidCityApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily = global::GuidCityApp.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont_android_font = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont_font = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::GuidCityApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::GuidCityApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::GuidCityApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::GuidCityApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::GuidCityApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::GuidCityApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::GuidCityApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ForegroundLinearLayout = global::GuidCityApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::GuidCityApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::GuidCityApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::GuidCityApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::GuidCityApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ListPopupWindow = global::GuidCityApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::GuidCityApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::GuidCityApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MediaRouteButton = global::GuidCityApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::GuidCityApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::GuidCityApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::GuidCityApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::GuidCityApp.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup_android_enabled = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup_android_id = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuGroup_android_visible = global::GuidCityApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem = global::GuidCityApp.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_actionLayout = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_actionViewClass = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_checkable = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_checked = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_enabled = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_icon = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_id = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_onClick = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_title = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_android_visible = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_contentDescription = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_iconTint = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_iconTintMode = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_numericModifiers = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_showAsAction = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuItem_tooltipText = global::GuidCityApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView = global::GuidCityApp.Droid.Resource.Styleable.MenuView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_headerBackground = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_itemBackground = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::GuidCityApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::GuidCityApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.MenuView_subMenuArrow = global::GuidCityApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView = global::GuidCityApp.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_android_background = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_elevation = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_headerLayout = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_itemBackground = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_itemIconTint = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_itemTextColor = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.NavigationView_menu = global::GuidCityApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.PopupWindow = global::GuidCityApp.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.PopupWindowBackgroundState = global::GuidCityApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::GuidCityApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::GuidCityApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::GuidCityApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::GuidCityApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecycleListView = global::GuidCityApp.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::GuidCityApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::GuidCityApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_android_orientation = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_layoutManager = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_spanCount = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::GuidCityApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::GuidCityApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::GuidCityApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::GuidCityApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::GuidCityApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView = global::GuidCityApp.Droid.Resource.Styleable.SearchView;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_android_focusable = global::GuidCityApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_android_imeOptions = global::GuidCityApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_android_inputType = global::GuidCityApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_android_maxWidth = global::GuidCityApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_closeIcon = global::GuidCityApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_commitIcon = global::GuidCityApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::GuidCityApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_goIcon = global::GuidCityApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::GuidCityApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_layout = global::GuidCityApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_queryBackground = global::GuidCityApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_queryHint = global::GuidCityApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_searchHintIcon = global::GuidCityApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_searchIcon = global::GuidCityApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_submitBackground = global::GuidCityApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::GuidCityApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SearchView_voiceIcon = global::GuidCityApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SnackbarLayout = global::GuidCityApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::GuidCityApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SnackbarLayout_elevation = global::GuidCityApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::GuidCityApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Spinner = global::GuidCityApp.Droid.Resource.Styleable.Spinner;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::GuidCityApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Spinner_android_entries = global::GuidCityApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Spinner_android_popupBackground = global::GuidCityApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Spinner_android_prompt = global::GuidCityApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Spinner_popupTheme = global::GuidCityApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_showText = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_track = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_trackTint = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::GuidCityApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabItem = global::GuidCityApp.Droid.Resource.Styleable.TabItem;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabItem_android_icon = global::GuidCityApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabItem_android_layout = global::GuidCityApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabItem_android_text = global::GuidCityApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout = global::GuidCityApp.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabBackground = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabContentStart = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabGravity = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabMode = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabPadding = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TabLayout_tabTextColor = global::GuidCityApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_textColor = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_textSize = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_android_typeface = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_fontFamily = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::GuidCityApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_android_hint = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::GuidCityApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar = global::GuidCityApp.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_android_gravity = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_android_minHeight = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_buttonGravity = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_collapseIcon = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_logo = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_logoDescription = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_navigationIcon = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_popupTheme = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_subtitle = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_title = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleMargin = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleMargins = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.Toolbar_titleTextColor = global::GuidCityApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.View = global::GuidCityApp.Droid.Resource.Styleable.View;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewBackgroundHelper = global::GuidCityApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::GuidCityApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::GuidCityApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::GuidCityApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewStubCompat = global::GuidCityApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewStubCompat_android_id = global::GuidCityApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::GuidCityApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::GuidCityApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.View_android_focusable = global::GuidCityApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.View_android_theme = global::GuidCityApp.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.View_paddingEnd = global::GuidCityApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.View_paddingStart = global::GuidCityApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.XF.Backdrop.Droid.Resource.Styleable.View_theme = global::GuidCityApp.Droid.Resource.Styleable.View_theme;
+			global::Plugin.XF.Backdrop.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::GuidCityApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::GuidCityApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::GuidCityApp.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::GuidCityApp.Droid.Resource.Attribute.fontProviderCerts;
@@ -6942,685 +9218,688 @@ namespace GuidCityApp.Droid
 			public const int drawable_shape_with_icon = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int heart = 2131165290;
-			
-			// aapt resource value: 0x7F070123
-			public const int icon1 = 2131165475;
+			public const int filter = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_audiotrack_dark = 2131165291;
-			
-			// aapt resource value: 0x7F07006C
-			public const int ic_audiotrack_light = 2131165292;
-			
-			// aapt resource value: 0x7F07006D
-			public const int ic_check = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int ic_checkbox_selected = 2131165294;
-			
-			// aapt resource value: 0x7F07006F
-			public const int ic_checkbox_unselected = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int ic_clear = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int ic_dialog_close_dark = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int ic_dialog_close_light = 2131165298;
-			
-			// aapt resource value: 0x7F070073
-			public const int ic_error = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int ic_group_collapse_00 = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int ic_group_collapse_01 = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int ic_group_collapse_02 = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int ic_group_collapse_03 = 2131165303;
-			
-			// aapt resource value: 0x7F070078
-			public const int ic_group_collapse_04 = 2131165304;
-			
-			// aapt resource value: 0x7F070079
-			public const int ic_group_collapse_05 = 2131165305;
-			
-			// aapt resource value: 0x7F07007A
-			public const int ic_group_collapse_06 = 2131165306;
-			
-			// aapt resource value: 0x7F07007B
-			public const int ic_group_collapse_07 = 2131165307;
-			
-			// aapt resource value: 0x7F07007C
-			public const int ic_group_collapse_08 = 2131165308;
-			
-			// aapt resource value: 0x7F07007D
-			public const int ic_group_collapse_09 = 2131165309;
-			
-			// aapt resource value: 0x7F07007E
-			public const int ic_group_collapse_10 = 2131165310;
-			
-			// aapt resource value: 0x7F07007F
-			public const int ic_group_collapse_11 = 2131165311;
-			
-			// aapt resource value: 0x7F070080
-			public const int ic_group_collapse_12 = 2131165312;
-			
-			// aapt resource value: 0x7F070081
-			public const int ic_group_collapse_13 = 2131165313;
-			
-			// aapt resource value: 0x7F070082
-			public const int ic_group_collapse_14 = 2131165314;
-			
-			// aapt resource value: 0x7F070083
-			public const int ic_group_collapse_15 = 2131165315;
-			
-			// aapt resource value: 0x7F070084
-			public const int ic_group_expand_00 = 2131165316;
-			
-			// aapt resource value: 0x7F070085
-			public const int ic_group_expand_01 = 2131165317;
-			
-			// aapt resource value: 0x7F070086
-			public const int ic_group_expand_02 = 2131165318;
-			
-			// aapt resource value: 0x7F070087
-			public const int ic_group_expand_03 = 2131165319;
-			
-			// aapt resource value: 0x7F070088
-			public const int ic_group_expand_04 = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int ic_group_expand_05 = 2131165321;
-			
-			// aapt resource value: 0x7F07008A
-			public const int ic_group_expand_06 = 2131165322;
-			
-			// aapt resource value: 0x7F07008B
-			public const int ic_group_expand_07 = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int ic_group_expand_08 = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int ic_group_expand_09 = 2131165325;
-			
-			// aapt resource value: 0x7F07008E
-			public const int ic_group_expand_10 = 2131165326;
-			
-			// aapt resource value: 0x7F07008F
-			public const int ic_group_expand_11 = 2131165327;
-			
-			// aapt resource value: 0x7F070090
-			public const int ic_group_expand_12 = 2131165328;
-			
-			// aapt resource value: 0x7F070091
-			public const int ic_group_expand_13 = 2131165329;
-			
-			// aapt resource value: 0x7F070092
-			public const int ic_group_expand_14 = 2131165330;
-			
-			// aapt resource value: 0x7F070093
-			public const int ic_group_expand_15 = 2131165331;
-			
-			// aapt resource value: 0x7F070094
-			public const int ic_media_pause_dark = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int ic_media_pause_light = 2131165333;
-			
-			// aapt resource value: 0x7F070096
-			public const int ic_media_play_dark = 2131165334;
-			
-			// aapt resource value: 0x7F070097
-			public const int ic_media_play_light = 2131165335;
-			
-			// aapt resource value: 0x7F070098
-			public const int ic_media_stop_dark = 2131165336;
-			
-			// aapt resource value: 0x7F070099
-			public const int ic_media_stop_light = 2131165337;
-			
-			// aapt resource value: 0x7F07009A
-			public const int ic_mr_button_connected_00_dark = 2131165338;
-			
-			// aapt resource value: 0x7F07009B
-			public const int ic_mr_button_connected_00_light = 2131165339;
-			
-			// aapt resource value: 0x7F07009C
-			public const int ic_mr_button_connected_01_dark = 2131165340;
-			
-			// aapt resource value: 0x7F07009D
-			public const int ic_mr_button_connected_01_light = 2131165341;
-			
-			// aapt resource value: 0x7F07009E
-			public const int ic_mr_button_connected_02_dark = 2131165342;
-			
-			// aapt resource value: 0x7F07009F
-			public const int ic_mr_button_connected_02_light = 2131165343;
-			
-			// aapt resource value: 0x7F0700A0
-			public const int ic_mr_button_connected_03_dark = 2131165344;
-			
-			// aapt resource value: 0x7F0700A1
-			public const int ic_mr_button_connected_03_light = 2131165345;
-			
-			// aapt resource value: 0x7F0700A2
-			public const int ic_mr_button_connected_04_dark = 2131165346;
-			
-			// aapt resource value: 0x7F0700A3
-			public const int ic_mr_button_connected_04_light = 2131165347;
-			
-			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_05_dark = 2131165348;
-			
-			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_05_light = 2131165349;
-			
-			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_06_dark = 2131165350;
-			
-			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_06_light = 2131165351;
-			
-			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_07_dark = 2131165352;
-			
-			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_07_light = 2131165353;
-			
-			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_08_dark = 2131165354;
-			
-			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_08_light = 2131165355;
-			
-			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_09_dark = 2131165356;
-			
-			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_09_light = 2131165357;
-			
-			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_10_dark = 2131165358;
-			
-			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_10_light = 2131165359;
-			
-			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_11_dark = 2131165360;
-			
-			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_11_light = 2131165361;
-			
-			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_12_dark = 2131165362;
-			
-			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_12_light = 2131165363;
-			
-			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_13_dark = 2131165364;
-			
-			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_13_light = 2131165365;
-			
-			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_14_dark = 2131165366;
-			
-			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_14_light = 2131165367;
-			
-			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_15_dark = 2131165368;
-			
-			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_15_light = 2131165369;
-			
-			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_16_dark = 2131165370;
-			
-			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_16_light = 2131165371;
-			
-			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_17_dark = 2131165372;
-			
-			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_17_light = 2131165373;
-			
-			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_18_dark = 2131165374;
-			
-			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_18_light = 2131165375;
-			
-			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_19_dark = 2131165376;
-			
-			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_19_light = 2131165377;
-			
-			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_20_dark = 2131165378;
-			
-			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_20_light = 2131165379;
-			
-			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_21_dark = 2131165380;
-			
-			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_21_light = 2131165381;
-			
-			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_22_dark = 2131165382;
-			
-			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_22_light = 2131165383;
-			
-			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_23_dark = 2131165384;
-			
-			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_23_light = 2131165385;
-			
-			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_24_dark = 2131165386;
-			
-			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_24_light = 2131165387;
-			
-			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_25_dark = 2131165388;
-			
-			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_25_light = 2131165389;
-			
-			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_26_dark = 2131165390;
-			
-			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_26_light = 2131165391;
-			
-			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_27_dark = 2131165392;
-			
-			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_27_light = 2131165393;
-			
-			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_28_dark = 2131165394;
-			
-			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_28_light = 2131165395;
-			
-			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_29_dark = 2131165396;
-			
-			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_29_light = 2131165397;
-			
-			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_30_dark = 2131165398;
-			
-			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_30_light = 2131165399;
-			
-			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connecting_00_dark = 2131165400;
-			
-			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connecting_00_light = 2131165401;
-			
-			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connecting_01_dark = 2131165402;
-			
-			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connecting_01_light = 2131165403;
-			
-			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connecting_02_dark = 2131165404;
-			
-			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connecting_02_light = 2131165405;
-			
-			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connecting_03_dark = 2131165406;
-			
-			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connecting_03_light = 2131165407;
-			
-			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connecting_04_dark = 2131165408;
-			
-			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connecting_04_light = 2131165409;
-			
-			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_05_dark = 2131165410;
-			
-			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_05_light = 2131165411;
-			
-			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_06_dark = 2131165412;
-			
-			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_06_light = 2131165413;
-			
-			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_07_dark = 2131165414;
-			
-			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_07_light = 2131165415;
-			
-			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_08_dark = 2131165416;
-			
-			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_08_light = 2131165417;
-			
-			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_09_dark = 2131165418;
-			
-			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_09_light = 2131165419;
-			
-			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_10_dark = 2131165420;
-			
-			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_10_light = 2131165421;
-			
-			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_11_dark = 2131165422;
-			
-			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_11_light = 2131165423;
-			
-			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_12_dark = 2131165424;
-			
-			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_12_light = 2131165425;
-			
-			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_13_dark = 2131165426;
-			
-			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_13_light = 2131165427;
-			
-			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_14_dark = 2131165428;
-			
-			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_14_light = 2131165429;
-			
-			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_15_dark = 2131165430;
-			
-			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_15_light = 2131165431;
-			
-			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_16_dark = 2131165432;
-			
-			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_16_light = 2131165433;
-			
-			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_17_dark = 2131165434;
-			
-			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_17_light = 2131165435;
-			
-			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_18_dark = 2131165436;
-			
-			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_18_light = 2131165437;
-			
-			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_19_dark = 2131165438;
-			
-			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_19_light = 2131165439;
-			
-			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_20_dark = 2131165440;
-			
-			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_20_light = 2131165441;
-			
-			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_21_dark = 2131165442;
-			
-			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_21_light = 2131165443;
-			
-			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_22_dark = 2131165444;
-			
-			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_22_light = 2131165445;
-			
-			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_23_dark = 2131165446;
-			
-			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_23_light = 2131165447;
-			
-			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_24_dark = 2131165448;
-			
-			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_24_light = 2131165449;
-			
-			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_25_dark = 2131165450;
-			
-			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_25_light = 2131165451;
-			
-			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_26_dark = 2131165452;
-			
-			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_26_light = 2131165453;
-			
-			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_27_dark = 2131165454;
-			
-			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_27_light = 2131165455;
-			
-			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_28_dark = 2131165456;
-			
-			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_28_light = 2131165457;
-			
-			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_29_dark = 2131165458;
-			
-			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_29_light = 2131165459;
-			
-			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_30_dark = 2131165460;
-			
-			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_30_light = 2131165461;
-			
-			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_disabled_dark = 2131165462;
-			
-			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_disabled_light = 2131165463;
-			
-			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_disconnected_dark = 2131165464;
-			
-			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_disconnected_light = 2131165465;
-			
-			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_grey = 2131165466;
-			
-			// aapt resource value: 0x7F07011B
-			public const int ic_radio_button_selected = 2131165467;
-			
-			// aapt resource value: 0x7F07011C
-			public const int ic_radio_button_unselected = 2131165468;
-			
-			// aapt resource value: 0x7F07011D
-			public const int ic_vol_type_speaker_dark = 2131165469;
-			
-			// aapt resource value: 0x7F07011E
-			public const int ic_vol_type_speaker_group_dark = 2131165470;
-			
-			// aapt resource value: 0x7F07011F
-			public const int ic_vol_type_speaker_group_light = 2131165471;
-			
-			// aapt resource value: 0x7F070120
-			public const int ic_vol_type_speaker_light = 2131165472;
-			
-			// aapt resource value: 0x7F070121
-			public const int ic_vol_type_tv_dark = 2131165473;
-			
-			// aapt resource value: 0x7F070122
-			public const int ic_vol_type_tv_light = 2131165474;
+			public const int heart = 2131165291;
 			
 			// aapt resource value: 0x7F070124
-			public const int image1 = 2131165476;
+			public const int icon1 = 2131165476;
+			
+			// aapt resource value: 0x7F07006C
+			public const int ic_audiotrack_dark = 2131165292;
+			
+			// aapt resource value: 0x7F07006D
+			public const int ic_audiotrack_light = 2131165293;
+			
+			// aapt resource value: 0x7F07006E
+			public const int ic_check = 2131165294;
+			
+			// aapt resource value: 0x7F07006F
+			public const int ic_checkbox_selected = 2131165295;
+			
+			// aapt resource value: 0x7F070070
+			public const int ic_checkbox_unselected = 2131165296;
+			
+			// aapt resource value: 0x7F070071
+			public const int ic_clear = 2131165297;
+			
+			// aapt resource value: 0x7F070072
+			public const int ic_dialog_close_dark = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int ic_dialog_close_light = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int ic_error = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int ic_group_collapse_00 = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int ic_group_collapse_01 = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int ic_group_collapse_02 = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int ic_group_collapse_03 = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int ic_group_collapse_04 = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int ic_group_collapse_05 = 2131165306;
+			
+			// aapt resource value: 0x7F07007B
+			public const int ic_group_collapse_06 = 2131165307;
+			
+			// aapt resource value: 0x7F07007C
+			public const int ic_group_collapse_07 = 2131165308;
+			
+			// aapt resource value: 0x7F07007D
+			public const int ic_group_collapse_08 = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int ic_group_collapse_09 = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int ic_group_collapse_10 = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int ic_group_collapse_11 = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int ic_group_collapse_12 = 2131165313;
+			
+			// aapt resource value: 0x7F070082
+			public const int ic_group_collapse_13 = 2131165314;
+			
+			// aapt resource value: 0x7F070083
+			public const int ic_group_collapse_14 = 2131165315;
+			
+			// aapt resource value: 0x7F070084
+			public const int ic_group_collapse_15 = 2131165316;
+			
+			// aapt resource value: 0x7F070085
+			public const int ic_group_expand_00 = 2131165317;
+			
+			// aapt resource value: 0x7F070086
+			public const int ic_group_expand_01 = 2131165318;
+			
+			// aapt resource value: 0x7F070087
+			public const int ic_group_expand_02 = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int ic_group_expand_03 = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int ic_group_expand_04 = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int ic_group_expand_05 = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int ic_group_expand_06 = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_group_expand_07 = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_group_expand_08 = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int ic_group_expand_09 = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int ic_group_expand_10 = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int ic_group_expand_11 = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int ic_group_expand_12 = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int ic_group_expand_13 = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int ic_group_expand_14 = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int ic_group_expand_15 = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int ic_media_pause_dark = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int ic_media_pause_light = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int ic_media_play_dark = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int ic_media_play_light = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int ic_media_stop_dark = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int ic_media_stop_light = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int ic_mr_button_connected_00_dark = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int ic_mr_button_connected_00_light = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int ic_mr_button_connected_01_dark = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int ic_mr_button_connected_01_light = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int ic_mr_button_connected_02_dark = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int ic_mr_button_connected_02_light = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int ic_mr_button_connected_03_dark = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int ic_mr_button_connected_03_light = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int ic_mr_button_connected_04_dark = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int ic_mr_button_connected_04_light = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int ic_mr_button_connected_05_dark = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int ic_mr_button_connected_05_light = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int ic_mr_button_connected_06_dark = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int ic_mr_button_connected_06_light = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int ic_mr_button_connected_07_dark = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int ic_mr_button_connected_07_light = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int ic_mr_button_connected_08_dark = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int ic_mr_button_connected_08_light = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int ic_mr_button_connected_09_dark = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int ic_mr_button_connected_09_light = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int ic_mr_button_connected_10_dark = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int ic_mr_button_connected_10_light = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int ic_mr_button_connected_11_dark = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int ic_mr_button_connected_11_light = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int ic_mr_button_connected_12_dark = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int ic_mr_button_connected_12_light = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int ic_mr_button_connected_13_dark = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int ic_mr_button_connected_13_light = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int ic_mr_button_connected_14_dark = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int ic_mr_button_connected_14_light = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int ic_mr_button_connected_15_dark = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int ic_mr_button_connected_15_light = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int ic_mr_button_connected_16_dark = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int ic_mr_button_connected_16_light = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int ic_mr_button_connected_17_dark = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int ic_mr_button_connected_17_light = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int ic_mr_button_connected_18_dark = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int ic_mr_button_connected_18_light = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int ic_mr_button_connected_19_dark = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int ic_mr_button_connected_19_light = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int ic_mr_button_connected_20_dark = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int ic_mr_button_connected_20_light = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int ic_mr_button_connected_21_dark = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int ic_mr_button_connected_21_light = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int ic_mr_button_connected_22_dark = 2131165383;
+			
+			// aapt resource value: 0x7F0700C8
+			public const int ic_mr_button_connected_22_light = 2131165384;
+			
+			// aapt resource value: 0x7F0700C9
+			public const int ic_mr_button_connected_23_dark = 2131165385;
+			
+			// aapt resource value: 0x7F0700CA
+			public const int ic_mr_button_connected_23_light = 2131165386;
+			
+			// aapt resource value: 0x7F0700CB
+			public const int ic_mr_button_connected_24_dark = 2131165387;
+			
+			// aapt resource value: 0x7F0700CC
+			public const int ic_mr_button_connected_24_light = 2131165388;
+			
+			// aapt resource value: 0x7F0700CD
+			public const int ic_mr_button_connected_25_dark = 2131165389;
+			
+			// aapt resource value: 0x7F0700CE
+			public const int ic_mr_button_connected_25_light = 2131165390;
+			
+			// aapt resource value: 0x7F0700CF
+			public const int ic_mr_button_connected_26_dark = 2131165391;
+			
+			// aapt resource value: 0x7F0700D0
+			public const int ic_mr_button_connected_26_light = 2131165392;
+			
+			// aapt resource value: 0x7F0700D1
+			public const int ic_mr_button_connected_27_dark = 2131165393;
+			
+			// aapt resource value: 0x7F0700D2
+			public const int ic_mr_button_connected_27_light = 2131165394;
+			
+			// aapt resource value: 0x7F0700D3
+			public const int ic_mr_button_connected_28_dark = 2131165395;
+			
+			// aapt resource value: 0x7F0700D4
+			public const int ic_mr_button_connected_28_light = 2131165396;
+			
+			// aapt resource value: 0x7F0700D5
+			public const int ic_mr_button_connected_29_dark = 2131165397;
+			
+			// aapt resource value: 0x7F0700D6
+			public const int ic_mr_button_connected_29_light = 2131165398;
+			
+			// aapt resource value: 0x7F0700D7
+			public const int ic_mr_button_connected_30_dark = 2131165399;
+			
+			// aapt resource value: 0x7F0700D8
+			public const int ic_mr_button_connected_30_light = 2131165400;
+			
+			// aapt resource value: 0x7F0700D9
+			public const int ic_mr_button_connecting_00_dark = 2131165401;
+			
+			// aapt resource value: 0x7F0700DA
+			public const int ic_mr_button_connecting_00_light = 2131165402;
+			
+			// aapt resource value: 0x7F0700DB
+			public const int ic_mr_button_connecting_01_dark = 2131165403;
+			
+			// aapt resource value: 0x7F0700DC
+			public const int ic_mr_button_connecting_01_light = 2131165404;
+			
+			// aapt resource value: 0x7F0700DD
+			public const int ic_mr_button_connecting_02_dark = 2131165405;
+			
+			// aapt resource value: 0x7F0700DE
+			public const int ic_mr_button_connecting_02_light = 2131165406;
+			
+			// aapt resource value: 0x7F0700DF
+			public const int ic_mr_button_connecting_03_dark = 2131165407;
+			
+			// aapt resource value: 0x7F0700E0
+			public const int ic_mr_button_connecting_03_light = 2131165408;
+			
+			// aapt resource value: 0x7F0700E1
+			public const int ic_mr_button_connecting_04_dark = 2131165409;
+			
+			// aapt resource value: 0x7F0700E2
+			public const int ic_mr_button_connecting_04_light = 2131165410;
+			
+			// aapt resource value: 0x7F0700E3
+			public const int ic_mr_button_connecting_05_dark = 2131165411;
+			
+			// aapt resource value: 0x7F0700E4
+			public const int ic_mr_button_connecting_05_light = 2131165412;
+			
+			// aapt resource value: 0x7F0700E5
+			public const int ic_mr_button_connecting_06_dark = 2131165413;
+			
+			// aapt resource value: 0x7F0700E6
+			public const int ic_mr_button_connecting_06_light = 2131165414;
+			
+			// aapt resource value: 0x7F0700E7
+			public const int ic_mr_button_connecting_07_dark = 2131165415;
+			
+			// aapt resource value: 0x7F0700E8
+			public const int ic_mr_button_connecting_07_light = 2131165416;
+			
+			// aapt resource value: 0x7F0700E9
+			public const int ic_mr_button_connecting_08_dark = 2131165417;
+			
+			// aapt resource value: 0x7F0700EA
+			public const int ic_mr_button_connecting_08_light = 2131165418;
+			
+			// aapt resource value: 0x7F0700EB
+			public const int ic_mr_button_connecting_09_dark = 2131165419;
+			
+			// aapt resource value: 0x7F0700EC
+			public const int ic_mr_button_connecting_09_light = 2131165420;
+			
+			// aapt resource value: 0x7F0700ED
+			public const int ic_mr_button_connecting_10_dark = 2131165421;
+			
+			// aapt resource value: 0x7F0700EE
+			public const int ic_mr_button_connecting_10_light = 2131165422;
+			
+			// aapt resource value: 0x7F0700EF
+			public const int ic_mr_button_connecting_11_dark = 2131165423;
+			
+			// aapt resource value: 0x7F0700F0
+			public const int ic_mr_button_connecting_11_light = 2131165424;
+			
+			// aapt resource value: 0x7F0700F1
+			public const int ic_mr_button_connecting_12_dark = 2131165425;
+			
+			// aapt resource value: 0x7F0700F2
+			public const int ic_mr_button_connecting_12_light = 2131165426;
+			
+			// aapt resource value: 0x7F0700F3
+			public const int ic_mr_button_connecting_13_dark = 2131165427;
+			
+			// aapt resource value: 0x7F0700F4
+			public const int ic_mr_button_connecting_13_light = 2131165428;
+			
+			// aapt resource value: 0x7F0700F5
+			public const int ic_mr_button_connecting_14_dark = 2131165429;
+			
+			// aapt resource value: 0x7F0700F6
+			public const int ic_mr_button_connecting_14_light = 2131165430;
+			
+			// aapt resource value: 0x7F0700F7
+			public const int ic_mr_button_connecting_15_dark = 2131165431;
+			
+			// aapt resource value: 0x7F0700F8
+			public const int ic_mr_button_connecting_15_light = 2131165432;
+			
+			// aapt resource value: 0x7F0700F9
+			public const int ic_mr_button_connecting_16_dark = 2131165433;
+			
+			// aapt resource value: 0x7F0700FA
+			public const int ic_mr_button_connecting_16_light = 2131165434;
+			
+			// aapt resource value: 0x7F0700FB
+			public const int ic_mr_button_connecting_17_dark = 2131165435;
+			
+			// aapt resource value: 0x7F0700FC
+			public const int ic_mr_button_connecting_17_light = 2131165436;
+			
+			// aapt resource value: 0x7F0700FD
+			public const int ic_mr_button_connecting_18_dark = 2131165437;
+			
+			// aapt resource value: 0x7F0700FE
+			public const int ic_mr_button_connecting_18_light = 2131165438;
+			
+			// aapt resource value: 0x7F0700FF
+			public const int ic_mr_button_connecting_19_dark = 2131165439;
+			
+			// aapt resource value: 0x7F070100
+			public const int ic_mr_button_connecting_19_light = 2131165440;
+			
+			// aapt resource value: 0x7F070101
+			public const int ic_mr_button_connecting_20_dark = 2131165441;
+			
+			// aapt resource value: 0x7F070102
+			public const int ic_mr_button_connecting_20_light = 2131165442;
+			
+			// aapt resource value: 0x7F070103
+			public const int ic_mr_button_connecting_21_dark = 2131165443;
+			
+			// aapt resource value: 0x7F070104
+			public const int ic_mr_button_connecting_21_light = 2131165444;
+			
+			// aapt resource value: 0x7F070105
+			public const int ic_mr_button_connecting_22_dark = 2131165445;
+			
+			// aapt resource value: 0x7F070106
+			public const int ic_mr_button_connecting_22_light = 2131165446;
+			
+			// aapt resource value: 0x7F070107
+			public const int ic_mr_button_connecting_23_dark = 2131165447;
+			
+			// aapt resource value: 0x7F070108
+			public const int ic_mr_button_connecting_23_light = 2131165448;
+			
+			// aapt resource value: 0x7F070109
+			public const int ic_mr_button_connecting_24_dark = 2131165449;
+			
+			// aapt resource value: 0x7F07010A
+			public const int ic_mr_button_connecting_24_light = 2131165450;
+			
+			// aapt resource value: 0x7F07010B
+			public const int ic_mr_button_connecting_25_dark = 2131165451;
+			
+			// aapt resource value: 0x7F07010C
+			public const int ic_mr_button_connecting_25_light = 2131165452;
+			
+			// aapt resource value: 0x7F07010D
+			public const int ic_mr_button_connecting_26_dark = 2131165453;
+			
+			// aapt resource value: 0x7F07010E
+			public const int ic_mr_button_connecting_26_light = 2131165454;
+			
+			// aapt resource value: 0x7F07010F
+			public const int ic_mr_button_connecting_27_dark = 2131165455;
+			
+			// aapt resource value: 0x7F070110
+			public const int ic_mr_button_connecting_27_light = 2131165456;
+			
+			// aapt resource value: 0x7F070111
+			public const int ic_mr_button_connecting_28_dark = 2131165457;
+			
+			// aapt resource value: 0x7F070112
+			public const int ic_mr_button_connecting_28_light = 2131165458;
+			
+			// aapt resource value: 0x7F070113
+			public const int ic_mr_button_connecting_29_dark = 2131165459;
+			
+			// aapt resource value: 0x7F070114
+			public const int ic_mr_button_connecting_29_light = 2131165460;
+			
+			// aapt resource value: 0x7F070115
+			public const int ic_mr_button_connecting_30_dark = 2131165461;
+			
+			// aapt resource value: 0x7F070116
+			public const int ic_mr_button_connecting_30_light = 2131165462;
+			
+			// aapt resource value: 0x7F070117
+			public const int ic_mr_button_disabled_dark = 2131165463;
+			
+			// aapt resource value: 0x7F070118
+			public const int ic_mr_button_disabled_light = 2131165464;
+			
+			// aapt resource value: 0x7F070119
+			public const int ic_mr_button_disconnected_dark = 2131165465;
+			
+			// aapt resource value: 0x7F07011A
+			public const int ic_mr_button_disconnected_light = 2131165466;
+			
+			// aapt resource value: 0x7F07011B
+			public const int ic_mr_button_grey = 2131165467;
+			
+			// aapt resource value: 0x7F07011C
+			public const int ic_radio_button_selected = 2131165468;
+			
+			// aapt resource value: 0x7F07011D
+			public const int ic_radio_button_unselected = 2131165469;
+			
+			// aapt resource value: 0x7F07011E
+			public const int ic_vol_type_speaker_dark = 2131165470;
+			
+			// aapt resource value: 0x7F07011F
+			public const int ic_vol_type_speaker_group_dark = 2131165471;
+			
+			// aapt resource value: 0x7F070120
+			public const int ic_vol_type_speaker_group_light = 2131165472;
+			
+			// aapt resource value: 0x7F070121
+			public const int ic_vol_type_speaker_light = 2131165473;
+			
+			// aapt resource value: 0x7F070122
+			public const int ic_vol_type_tv_dark = 2131165474;
+			
+			// aapt resource value: 0x7F070123
+			public const int ic_vol_type_tv_light = 2131165475;
 			
 			// aapt resource value: 0x7F070125
-			public const int image2 = 2131165477;
+			public const int image1 = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int image3 = 2131165478;
+			public const int image2 = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int image4 = 2131165479;
+			public const int image3 = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int image5 = 2131165480;
+			public const int image4 = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int imageList1 = 2131165481;
+			public const int image5 = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int mr_button_connected_dark = 2131165482;
+			public const int imageList1 = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int mr_button_connected_light = 2131165483;
+			public const int mr_button_connected_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int mr_button_connecting_dark = 2131165484;
+			public const int mr_button_connected_light = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int mr_button_connecting_light = 2131165485;
+			public const int mr_button_connecting_dark = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int mr_button_dark = 2131165486;
+			public const int mr_button_connecting_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int mr_button_light = 2131165487;
+			public const int mr_button_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mr_dialog_close_dark = 2131165488;
+			public const int mr_button_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mr_dialog_close_light = 2131165489;
+			public const int mr_dialog_close_dark = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mr_dialog_material_background_dark = 2131165490;
+			public const int mr_dialog_close_light = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mr_dialog_material_background_light = 2131165491;
+			public const int mr_dialog_material_background_dark = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mr_group_collapse = 2131165492;
+			public const int mr_dialog_material_background_light = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mr_group_expand = 2131165493;
+			public const int mr_group_collapse = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mr_media_pause_dark = 2131165494;
+			public const int mr_group_expand = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int mr_media_pause_light = 2131165495;
+			public const int mr_media_pause_dark = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int mr_media_play_dark = 2131165496;
+			public const int mr_media_pause_light = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int mr_media_play_light = 2131165497;
+			public const int mr_media_play_dark = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mr_media_stop_dark = 2131165498;
+			public const int mr_media_play_light = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mr_media_stop_light = 2131165499;
+			public const int mr_media_stop_dark = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mr_vol_type_audiotrack_dark = 2131165500;
+			public const int mr_media_stop_light = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mr_vol_type_audiotrack_light = 2131165501;
+			public const int mr_vol_type_audiotrack_dark = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int navigation_empty_icon = 2131165502;
+			public const int mr_vol_type_audiotrack_light = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int notification_action_background = 2131165503;
+			public const int navigation_empty_icon = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int notification_bg = 2131165504;
+			public const int notification_action_background = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int notification_bg_low = 2131165505;
+			public const int notification_bg = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int notification_bg_low_normal = 2131165506;
+			public const int notification_bg_low = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int notification_bg_low_pressed = 2131165507;
+			public const int notification_bg_low_normal = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int notification_bg_normal = 2131165508;
+			public const int notification_bg_low_pressed = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int notification_bg_normal_pressed = 2131165509;
+			public const int notification_bg_normal = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int notification_icon_background = 2131165510;
+			public const int notification_bg_normal_pressed = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int notification_template_icon_bg = 2131165511;
+			public const int notification_icon_background = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int notification_template_icon_low_bg = 2131165512;
+			public const int notification_template_icon_bg = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int notification_tile_bg = 2131165513;
+			public const int notification_template_icon_low_bg = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int notify_panel_notification_icon_bg = 2131165514;
+			public const int notification_tile_bg = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int tooltip_frame_dark = 2131165515;
+			public const int notify_panel_notification_icon_bg = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int tooltip_frame_light = 2131165516;
+			public const int tooltip_frame_dark = 2131165516;
+			
+			// aapt resource value: 0x7F07014D
+			public const int tooltip_frame_light = 2131165517;
 			
 			static Drawable()
 			{
@@ -9364,8 +11643,8 @@ namespace GuidCityApp.Droid
 			// aapt resource value: 0x7F0F00AD
 			public const int CardView_Light = 2131689645;
 			
-			// aapt resource value: 0x7F0F0192
-			public const int collectionViewStyle = 2131689874;
+			// aapt resource value: 0x7F0F0193
+			public const int collectionViewStyle = 2131689875;
 			
 			// aapt resource value: 0x7F0F00AE
 			public const int MainTheme = 2131689646;
@@ -9374,682 +11653,685 @@ namespace GuidCityApp.Droid
 			public const int MainTheme_Base = 2131689647;
 			
 			// aapt resource value: 0x7F0F00B0
-			public const int Platform_AppCompat = 2131689648;
+			public const int MyTheme_DrawerArrowStyle = 2131689648;
 			
 			// aapt resource value: 0x7F0F00B1
-			public const int Platform_AppCompat_Light = 2131689649;
+			public const int Platform_AppCompat = 2131689649;
 			
 			// aapt resource value: 0x7F0F00B2
-			public const int Platform_ThemeOverlay_AppCompat = 2131689650;
+			public const int Platform_AppCompat_Light = 2131689650;
 			
 			// aapt resource value: 0x7F0F00B3
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689651;
+			public const int Platform_ThemeOverlay_AppCompat = 2131689651;
 			
 			// aapt resource value: 0x7F0F00B4
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689652;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689652;
 			
 			// aapt resource value: 0x7F0F00B5
-			public const int Platform_V11_AppCompat = 2131689653;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689653;
 			
 			// aapt resource value: 0x7F0F00B6
-			public const int Platform_V11_AppCompat_Light = 2131689654;
+			public const int Platform_V11_AppCompat = 2131689654;
 			
 			// aapt resource value: 0x7F0F00B7
-			public const int Platform_V14_AppCompat = 2131689655;
+			public const int Platform_V11_AppCompat_Light = 2131689655;
 			
 			// aapt resource value: 0x7F0F00B8
-			public const int Platform_V14_AppCompat_Light = 2131689656;
+			public const int Platform_V14_AppCompat = 2131689656;
 			
 			// aapt resource value: 0x7F0F00B9
-			public const int Platform_V21_AppCompat = 2131689657;
+			public const int Platform_V14_AppCompat_Light = 2131689657;
 			
 			// aapt resource value: 0x7F0F00BA
-			public const int Platform_V21_AppCompat_Light = 2131689658;
+			public const int Platform_V21_AppCompat = 2131689658;
 			
 			// aapt resource value: 0x7F0F00BB
-			public const int Platform_V25_AppCompat = 2131689659;
+			public const int Platform_V21_AppCompat_Light = 2131689659;
 			
 			// aapt resource value: 0x7F0F00BC
-			public const int Platform_V25_AppCompat_Light = 2131689660;
+			public const int Platform_V25_AppCompat = 2131689660;
 			
 			// aapt resource value: 0x7F0F00BD
-			public const int Platform_Widget_AppCompat_Spinner = 2131689661;
+			public const int Platform_V25_AppCompat_Light = 2131689661;
 			
 			// aapt resource value: 0x7F0F00BE
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689662;
+			public const int Platform_Widget_AppCompat_Spinner = 2131689662;
 			
 			// aapt resource value: 0x7F0F00BF
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689663;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689663;
 			
 			// aapt resource value: 0x7F0F00C0
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689664;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689664;
 			
 			// aapt resource value: 0x7F0F00C1
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689665;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689665;
 			
 			// aapt resource value: 0x7F0F00C2
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689666;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689666;
 			
 			// aapt resource value: 0x7F0F00C3
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689667;
-			
-			// aapt resource value: 0x7F0F00C9
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689673;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689667;
 			
 			// aapt resource value: 0x7F0F00C4
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689668;
-			
-			// aapt resource value: 0x7F0F00C5
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689669;
-			
-			// aapt resource value: 0x7F0F00C6
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689670;
-			
-			// aapt resource value: 0x7F0F00C7
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689671;
-			
-			// aapt resource value: 0x7F0F00C8
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689672;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689668;
 			
 			// aapt resource value: 0x7F0F00CA
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689674;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689674;
+			
+			// aapt resource value: 0x7F0F00C5
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689669;
+			
+			// aapt resource value: 0x7F0F00C6
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689670;
+			
+			// aapt resource value: 0x7F0F00C7
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689671;
+			
+			// aapt resource value: 0x7F0F00C8
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689672;
+			
+			// aapt resource value: 0x7F0F00C9
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689673;
 			
 			// aapt resource value: 0x7F0F00CB
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689675;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689675;
 			
 			// aapt resource value: 0x7F0F00CC
-			public const int TextAppearance_AppCompat = 2131689676;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689676;
 			
 			// aapt resource value: 0x7F0F00CD
-			public const int TextAppearance_AppCompat_Body1 = 2131689677;
+			public const int TextAppearance_AppCompat = 2131689677;
 			
 			// aapt resource value: 0x7F0F00CE
-			public const int TextAppearance_AppCompat_Body2 = 2131689678;
+			public const int TextAppearance_AppCompat_Body1 = 2131689678;
 			
 			// aapt resource value: 0x7F0F00CF
-			public const int TextAppearance_AppCompat_Button = 2131689679;
+			public const int TextAppearance_AppCompat_Body2 = 2131689679;
 			
 			// aapt resource value: 0x7F0F00D0
-			public const int TextAppearance_AppCompat_Caption = 2131689680;
+			public const int TextAppearance_AppCompat_Button = 2131689680;
 			
 			// aapt resource value: 0x7F0F00D1
-			public const int TextAppearance_AppCompat_Display1 = 2131689681;
+			public const int TextAppearance_AppCompat_Caption = 2131689681;
 			
 			// aapt resource value: 0x7F0F00D2
-			public const int TextAppearance_AppCompat_Display2 = 2131689682;
+			public const int TextAppearance_AppCompat_Display1 = 2131689682;
 			
 			// aapt resource value: 0x7F0F00D3
-			public const int TextAppearance_AppCompat_Display3 = 2131689683;
+			public const int TextAppearance_AppCompat_Display2 = 2131689683;
 			
 			// aapt resource value: 0x7F0F00D4
-			public const int TextAppearance_AppCompat_Display4 = 2131689684;
+			public const int TextAppearance_AppCompat_Display3 = 2131689684;
 			
 			// aapt resource value: 0x7F0F00D5
-			public const int TextAppearance_AppCompat_Headline = 2131689685;
+			public const int TextAppearance_AppCompat_Display4 = 2131689685;
 			
 			// aapt resource value: 0x7F0F00D6
-			public const int TextAppearance_AppCompat_Inverse = 2131689686;
+			public const int TextAppearance_AppCompat_Headline = 2131689686;
 			
 			// aapt resource value: 0x7F0F00D7
-			public const int TextAppearance_AppCompat_Large = 2131689687;
+			public const int TextAppearance_AppCompat_Inverse = 2131689687;
 			
 			// aapt resource value: 0x7F0F00D8
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131689688;
+			public const int TextAppearance_AppCompat_Large = 2131689688;
 			
 			// aapt resource value: 0x7F0F00D9
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689689;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131689689;
 			
 			// aapt resource value: 0x7F0F00DA
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689690;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689690;
 			
 			// aapt resource value: 0x7F0F00DB
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689691;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689691;
 			
 			// aapt resource value: 0x7F0F00DC
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689692;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689692;
 			
 			// aapt resource value: 0x7F0F00DD
-			public const int TextAppearance_AppCompat_Medium = 2131689693;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689693;
 			
 			// aapt resource value: 0x7F0F00DE
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689694;
+			public const int TextAppearance_AppCompat_Medium = 2131689694;
 			
 			// aapt resource value: 0x7F0F00DF
-			public const int TextAppearance_AppCompat_Menu = 2131689695;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689695;
 			
 			// aapt resource value: 0x7F0F00E0
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689696;
+			public const int TextAppearance_AppCompat_Menu = 2131689696;
 			
 			// aapt resource value: 0x7F0F00E1
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689697;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689697;
 			
 			// aapt resource value: 0x7F0F00E2
-			public const int TextAppearance_AppCompat_Small = 2131689698;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689698;
 			
 			// aapt resource value: 0x7F0F00E3
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131689699;
+			public const int TextAppearance_AppCompat_Small = 2131689699;
 			
 			// aapt resource value: 0x7F0F00E4
-			public const int TextAppearance_AppCompat_Subhead = 2131689700;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131689700;
 			
 			// aapt resource value: 0x7F0F00E5
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689701;
+			public const int TextAppearance_AppCompat_Subhead = 2131689701;
 			
 			// aapt resource value: 0x7F0F00E6
-			public const int TextAppearance_AppCompat_Title = 2131689702;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689702;
 			
 			// aapt resource value: 0x7F0F00E7
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131689703;
+			public const int TextAppearance_AppCompat_Title = 2131689703;
 			
 			// aapt resource value: 0x7F0F00E8
-			public const int TextAppearance_AppCompat_Tooltip = 2131689704;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131689704;
 			
 			// aapt resource value: 0x7F0F00E9
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689705;
+			public const int TextAppearance_AppCompat_Tooltip = 2131689705;
 			
 			// aapt resource value: 0x7F0F00EA
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689706;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689706;
 			
 			// aapt resource value: 0x7F0F00EB
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689707;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689707;
 			
 			// aapt resource value: 0x7F0F00EC
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689708;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689708;
 			
 			// aapt resource value: 0x7F0F00ED
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689709;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689709;
 			
 			// aapt resource value: 0x7F0F00EE
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689710;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689710;
 			
 			// aapt resource value: 0x7F0F00EF
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689711;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689711;
 			
 			// aapt resource value: 0x7F0F00F0
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689712;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689712;
 			
 			// aapt resource value: 0x7F0F00F1
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689713;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689713;
 			
 			// aapt resource value: 0x7F0F00F2
-			public const int TextAppearance_AppCompat_Widget_Button = 2131689714;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689714;
 			
 			// aapt resource value: 0x7F0F00F3
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689715;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131689715;
 			
 			// aapt resource value: 0x7F0F00F4
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689716;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689716;
 			
 			// aapt resource value: 0x7F0F00F5
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689717;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689717;
 			
 			// aapt resource value: 0x7F0F00F6
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689718;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689718;
 			
 			// aapt resource value: 0x7F0F00F7
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689719;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689719;
 			
 			// aapt resource value: 0x7F0F00F8
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689720;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689720;
 			
 			// aapt resource value: 0x7F0F00F9
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689721;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689721;
 			
 			// aapt resource value: 0x7F0F00FA
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131689722;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689722;
 			
 			// aapt resource value: 0x7F0F00FB
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689723;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131689723;
 			
 			// aapt resource value: 0x7F0F00FC
-			public const int TextAppearance_Compat_Notification = 2131689724;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689724;
 			
 			// aapt resource value: 0x7F0F00FD
-			public const int TextAppearance_Compat_Notification_Info = 2131689725;
+			public const int TextAppearance_Compat_Notification = 2131689725;
 			
 			// aapt resource value: 0x7F0F00FE
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131689726;
+			public const int TextAppearance_Compat_Notification_Info = 2131689726;
 			
 			// aapt resource value: 0x7F0F00FF
-			public const int TextAppearance_Compat_Notification_Line2 = 2131689727;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131689727;
 			
 			// aapt resource value: 0x7F0F0100
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689728;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131689728;
 			
 			// aapt resource value: 0x7F0F0101
-			public const int TextAppearance_Compat_Notification_Media = 2131689729;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689729;
 			
 			// aapt resource value: 0x7F0F0102
-			public const int TextAppearance_Compat_Notification_Time = 2131689730;
+			public const int TextAppearance_Compat_Notification_Media = 2131689730;
 			
 			// aapt resource value: 0x7F0F0103
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131689731;
+			public const int TextAppearance_Compat_Notification_Time = 2131689731;
 			
 			// aapt resource value: 0x7F0F0104
-			public const int TextAppearance_Compat_Notification_Title = 2131689732;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131689732;
 			
 			// aapt resource value: 0x7F0F0105
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131689733;
+			public const int TextAppearance_Compat_Notification_Title = 2131689733;
 			
 			// aapt resource value: 0x7F0F0106
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689734;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131689734;
 			
 			// aapt resource value: 0x7F0F0107
-			public const int TextAppearance_Design_Counter = 2131689735;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689735;
 			
 			// aapt resource value: 0x7F0F0108
-			public const int TextAppearance_Design_Counter_Overflow = 2131689736;
+			public const int TextAppearance_Design_Counter = 2131689736;
 			
 			// aapt resource value: 0x7F0F0109
-			public const int TextAppearance_Design_Error = 2131689737;
+			public const int TextAppearance_Design_Counter_Overflow = 2131689737;
 			
 			// aapt resource value: 0x7F0F010A
-			public const int TextAppearance_Design_Hint = 2131689738;
+			public const int TextAppearance_Design_Error = 2131689738;
 			
 			// aapt resource value: 0x7F0F010B
-			public const int TextAppearance_Design_Snackbar_Message = 2131689739;
+			public const int TextAppearance_Design_Hint = 2131689739;
 			
 			// aapt resource value: 0x7F0F010C
-			public const int TextAppearance_Design_Tab = 2131689740;
+			public const int TextAppearance_Design_Snackbar_Message = 2131689740;
 			
 			// aapt resource value: 0x7F0F010D
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131689741;
+			public const int TextAppearance_Design_Tab = 2131689741;
 			
 			// aapt resource value: 0x7F0F010E
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131689742;
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131689742;
 			
 			// aapt resource value: 0x7F0F010F
-			public const int TextAppearance_MediaRouter_Title = 2131689743;
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131689743;
 			
 			// aapt resource value: 0x7F0F0110
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689744;
+			public const int TextAppearance_MediaRouter_Title = 2131689744;
 			
 			// aapt resource value: 0x7F0F0111
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689745;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689745;
 			
 			// aapt resource value: 0x7F0F0112
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689746;
-			
-			// aapt resource value: 0x7F0F0132
-			public const int ThemeOverlay_AppCompat = 2131689778;
-			
-			// aapt resource value: 0x7F0F0133
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131689779;
-			
-			// aapt resource value: 0x7F0F0134
-			public const int ThemeOverlay_AppCompat_Dark = 2131689780;
-			
-			// aapt resource value: 0x7F0F0135
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689781;
-			
-			// aapt resource value: 0x7F0F0136
-			public const int ThemeOverlay_AppCompat_Dialog = 2131689782;
-			
-			// aapt resource value: 0x7F0F0137
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689783;
-			
-			// aapt resource value: 0x7F0F0138
-			public const int ThemeOverlay_AppCompat_Light = 2131689784;
-			
-			// aapt resource value: 0x7F0F0139
-			public const int ThemeOverlay_MediaRouter_Dark = 2131689785;
-			
-			// aapt resource value: 0x7F0F013A
-			public const int ThemeOverlay_MediaRouter_Light = 2131689786;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689746;
 			
 			// aapt resource value: 0x7F0F0113
-			public const int Theme_AppCompat = 2131689747;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689747;
 			
-			// aapt resource value: 0x7F0F0114
-			public const int Theme_AppCompat_CompactMenu = 2131689748;
+			// aapt resource value: 0x7F0F0133
+			public const int ThemeOverlay_AppCompat = 2131689779;
 			
-			// aapt resource value: 0x7F0F0115
-			public const int Theme_AppCompat_DayNight = 2131689749;
+			// aapt resource value: 0x7F0F0134
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689780;
 			
-			// aapt resource value: 0x7F0F0116
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689750;
+			// aapt resource value: 0x7F0F0135
+			public const int ThemeOverlay_AppCompat_Dark = 2131689781;
 			
-			// aapt resource value: 0x7F0F0117
-			public const int Theme_AppCompat_DayNight_Dialog = 2131689751;
+			// aapt resource value: 0x7F0F0136
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689782;
 			
-			// aapt resource value: 0x7F0F011A
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689754;
+			// aapt resource value: 0x7F0F0137
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689783;
 			
-			// aapt resource value: 0x7F0F0118
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689752;
+			// aapt resource value: 0x7F0F0138
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689784;
 			
-			// aapt resource value: 0x7F0F0119
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689753;
+			// aapt resource value: 0x7F0F0139
+			public const int ThemeOverlay_AppCompat_Light = 2131689785;
 			
-			// aapt resource value: 0x7F0F011B
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689755;
-			
-			// aapt resource value: 0x7F0F011C
-			public const int Theme_AppCompat_Dialog = 2131689756;
-			
-			// aapt resource value: 0x7F0F011F
-			public const int Theme_AppCompat_DialogWhenLarge = 2131689759;
-			
-			// aapt resource value: 0x7F0F011D
-			public const int Theme_AppCompat_Dialog_Alert = 2131689757;
-			
-			// aapt resource value: 0x7F0F011E
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131689758;
-			
-			// aapt resource value: 0x7F0F0120
-			public const int Theme_AppCompat_Light = 2131689760;
-			
-			// aapt resource value: 0x7F0F0121
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131689761;
-			
-			// aapt resource value: 0x7F0F0122
-			public const int Theme_AppCompat_Light_Dialog = 2131689762;
-			
-			// aapt resource value: 0x7F0F0125
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689765;
-			
-			// aapt resource value: 0x7F0F0123
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689763;
-			
-			// aapt resource value: 0x7F0F0124
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689764;
-			
-			// aapt resource value: 0x7F0F0126
-			public const int Theme_AppCompat_Light_NoActionBar = 2131689766;
-			
-			// aapt resource value: 0x7F0F0127
-			public const int Theme_AppCompat_NoActionBar = 2131689767;
-			
-			// aapt resource value: 0x7F0F0128
-			public const int Theme_Design = 2131689768;
-			
-			// aapt resource value: 0x7F0F0129
-			public const int Theme_Design_BottomSheetDialog = 2131689769;
-			
-			// aapt resource value: 0x7F0F012A
-			public const int Theme_Design_Light = 2131689770;
-			
-			// aapt resource value: 0x7F0F012B
-			public const int Theme_Design_Light_BottomSheetDialog = 2131689771;
-			
-			// aapt resource value: 0x7F0F012C
-			public const int Theme_Design_Light_NoActionBar = 2131689772;
-			
-			// aapt resource value: 0x7F0F012D
-			public const int Theme_Design_NoActionBar = 2131689773;
-			
-			// aapt resource value: 0x7F0F012E
-			public const int Theme_MediaRouter = 2131689774;
-			
-			// aapt resource value: 0x7F0F012F
-			public const int Theme_MediaRouter_Light = 2131689775;
-			
-			// aapt resource value: 0x7F0F0131
-			public const int Theme_MediaRouter_LightControlPanel = 2131689777;
-			
-			// aapt resource value: 0x7F0F0130
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131689776;
+			// aapt resource value: 0x7F0F013A
+			public const int ThemeOverlay_MediaRouter_Dark = 2131689786;
 			
 			// aapt resource value: 0x7F0F013B
-			public const int Widget_AppCompat_ActionBar = 2131689787;
+			public const int ThemeOverlay_MediaRouter_Light = 2131689787;
+			
+			// aapt resource value: 0x7F0F0114
+			public const int Theme_AppCompat = 2131689748;
+			
+			// aapt resource value: 0x7F0F0115
+			public const int Theme_AppCompat_CompactMenu = 2131689749;
+			
+			// aapt resource value: 0x7F0F0116
+			public const int Theme_AppCompat_DayNight = 2131689750;
+			
+			// aapt resource value: 0x7F0F0117
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689751;
+			
+			// aapt resource value: 0x7F0F0118
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689752;
+			
+			// aapt resource value: 0x7F0F011B
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689755;
+			
+			// aapt resource value: 0x7F0F0119
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689753;
+			
+			// aapt resource value: 0x7F0F011A
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689754;
+			
+			// aapt resource value: 0x7F0F011C
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689756;
+			
+			// aapt resource value: 0x7F0F011D
+			public const int Theme_AppCompat_Dialog = 2131689757;
+			
+			// aapt resource value: 0x7F0F0120
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689760;
+			
+			// aapt resource value: 0x7F0F011E
+			public const int Theme_AppCompat_Dialog_Alert = 2131689758;
+			
+			// aapt resource value: 0x7F0F011F
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689759;
+			
+			// aapt resource value: 0x7F0F0121
+			public const int Theme_AppCompat_Light = 2131689761;
+			
+			// aapt resource value: 0x7F0F0122
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689762;
+			
+			// aapt resource value: 0x7F0F0123
+			public const int Theme_AppCompat_Light_Dialog = 2131689763;
+			
+			// aapt resource value: 0x7F0F0126
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689766;
+			
+			// aapt resource value: 0x7F0F0124
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689764;
+			
+			// aapt resource value: 0x7F0F0125
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689765;
+			
+			// aapt resource value: 0x7F0F0127
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689767;
+			
+			// aapt resource value: 0x7F0F0128
+			public const int Theme_AppCompat_NoActionBar = 2131689768;
+			
+			// aapt resource value: 0x7F0F0129
+			public const int Theme_Design = 2131689769;
+			
+			// aapt resource value: 0x7F0F012A
+			public const int Theme_Design_BottomSheetDialog = 2131689770;
+			
+			// aapt resource value: 0x7F0F012B
+			public const int Theme_Design_Light = 2131689771;
+			
+			// aapt resource value: 0x7F0F012C
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689772;
+			
+			// aapt resource value: 0x7F0F012D
+			public const int Theme_Design_Light_NoActionBar = 2131689773;
+			
+			// aapt resource value: 0x7F0F012E
+			public const int Theme_Design_NoActionBar = 2131689774;
+			
+			// aapt resource value: 0x7F0F012F
+			public const int Theme_MediaRouter = 2131689775;
+			
+			// aapt resource value: 0x7F0F0130
+			public const int Theme_MediaRouter_Light = 2131689776;
+			
+			// aapt resource value: 0x7F0F0132
+			public const int Theme_MediaRouter_LightControlPanel = 2131689778;
+			
+			// aapt resource value: 0x7F0F0131
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131689777;
 			
 			// aapt resource value: 0x7F0F013C
-			public const int Widget_AppCompat_ActionBar_Solid = 2131689788;
+			public const int Widget_AppCompat_ActionBar = 2131689788;
 			
 			// aapt resource value: 0x7F0F013D
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131689789;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131689789;
 			
 			// aapt resource value: 0x7F0F013E
-			public const int Widget_AppCompat_ActionBar_TabText = 2131689790;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131689790;
 			
 			// aapt resource value: 0x7F0F013F
-			public const int Widget_AppCompat_ActionBar_TabView = 2131689791;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131689791;
 			
 			// aapt resource value: 0x7F0F0140
-			public const int Widget_AppCompat_ActionButton = 2131689792;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131689792;
 			
 			// aapt resource value: 0x7F0F0141
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131689793;
+			public const int Widget_AppCompat_ActionButton = 2131689793;
 			
 			// aapt resource value: 0x7F0F0142
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131689794;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131689794;
 			
 			// aapt resource value: 0x7F0F0143
-			public const int Widget_AppCompat_ActionMode = 2131689795;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131689795;
 			
 			// aapt resource value: 0x7F0F0144
-			public const int Widget_AppCompat_ActivityChooserView = 2131689796;
+			public const int Widget_AppCompat_ActionMode = 2131689796;
 			
 			// aapt resource value: 0x7F0F0145
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131689797;
+			public const int Widget_AppCompat_ActivityChooserView = 2131689797;
 			
 			// aapt resource value: 0x7F0F0146
-			public const int Widget_AppCompat_Button = 2131689798;
-			
-			// aapt resource value: 0x7F0F014C
-			public const int Widget_AppCompat_ButtonBar = 2131689804;
-			
-			// aapt resource value: 0x7F0F014D
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131689805;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131689798;
 			
 			// aapt resource value: 0x7F0F0147
-			public const int Widget_AppCompat_Button_Borderless = 2131689799;
+			public const int Widget_AppCompat_Button = 2131689799;
 			
-			// aapt resource value: 0x7F0F0148
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131689800;
-			
-			// aapt resource value: 0x7F0F0149
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689801;
-			
-			// aapt resource value: 0x7F0F014A
-			public const int Widget_AppCompat_Button_Colored = 2131689802;
-			
-			// aapt resource value: 0x7F0F014B
-			public const int Widget_AppCompat_Button_Small = 2131689803;
+			// aapt resource value: 0x7F0F014D
+			public const int Widget_AppCompat_ButtonBar = 2131689805;
 			
 			// aapt resource value: 0x7F0F014E
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131689806;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131689806;
+			
+			// aapt resource value: 0x7F0F0148
+			public const int Widget_AppCompat_Button_Borderless = 2131689800;
+			
+			// aapt resource value: 0x7F0F0149
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131689801;
+			
+			// aapt resource value: 0x7F0F014A
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689802;
+			
+			// aapt resource value: 0x7F0F014B
+			public const int Widget_AppCompat_Button_Colored = 2131689803;
+			
+			// aapt resource value: 0x7F0F014C
+			public const int Widget_AppCompat_Button_Small = 2131689804;
 			
 			// aapt resource value: 0x7F0F014F
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131689807;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131689807;
 			
 			// aapt resource value: 0x7F0F0150
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131689808;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131689808;
 			
 			// aapt resource value: 0x7F0F0151
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131689809;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131689809;
 			
 			// aapt resource value: 0x7F0F0152
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131689810;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131689810;
 			
 			// aapt resource value: 0x7F0F0153
-			public const int Widget_AppCompat_EditText = 2131689811;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131689811;
 			
 			// aapt resource value: 0x7F0F0154
-			public const int Widget_AppCompat_ImageButton = 2131689812;
+			public const int Widget_AppCompat_EditText = 2131689812;
 			
 			// aapt resource value: 0x7F0F0155
-			public const int Widget_AppCompat_Light_ActionBar = 2131689813;
+			public const int Widget_AppCompat_ImageButton = 2131689813;
 			
 			// aapt resource value: 0x7F0F0156
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131689814;
+			public const int Widget_AppCompat_Light_ActionBar = 2131689814;
 			
 			// aapt resource value: 0x7F0F0157
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131689815;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131689815;
 			
 			// aapt resource value: 0x7F0F0158
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131689816;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131689816;
 			
 			// aapt resource value: 0x7F0F0159
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131689817;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131689817;
 			
 			// aapt resource value: 0x7F0F015A
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131689818;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131689818;
 			
 			// aapt resource value: 0x7F0F015B
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689819;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131689819;
 			
 			// aapt resource value: 0x7F0F015C
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131689820;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689820;
 			
 			// aapt resource value: 0x7F0F015D
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131689821;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131689821;
 			
 			// aapt resource value: 0x7F0F015E
-			public const int Widget_AppCompat_Light_ActionButton = 2131689822;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131689822;
 			
 			// aapt resource value: 0x7F0F015F
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131689823;
+			public const int Widget_AppCompat_Light_ActionButton = 2131689823;
 			
 			// aapt resource value: 0x7F0F0160
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131689824;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131689824;
 			
 			// aapt resource value: 0x7F0F0161
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131689825;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131689825;
 			
 			// aapt resource value: 0x7F0F0162
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131689826;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131689826;
 			
 			// aapt resource value: 0x7F0F0163
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131689827;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131689827;
 			
 			// aapt resource value: 0x7F0F0164
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131689828;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131689828;
 			
 			// aapt resource value: 0x7F0F0165
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131689829;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131689829;
 			
 			// aapt resource value: 0x7F0F0166
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131689830;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131689830;
 			
 			// aapt resource value: 0x7F0F0167
-			public const int Widget_AppCompat_Light_PopupMenu = 2131689831;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131689831;
 			
 			// aapt resource value: 0x7F0F0168
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131689832;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131689832;
 			
 			// aapt resource value: 0x7F0F0169
-			public const int Widget_AppCompat_Light_SearchView = 2131689833;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131689833;
 			
 			// aapt resource value: 0x7F0F016A
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131689834;
+			public const int Widget_AppCompat_Light_SearchView = 2131689834;
 			
 			// aapt resource value: 0x7F0F016B
-			public const int Widget_AppCompat_ListMenuView = 2131689835;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131689835;
 			
 			// aapt resource value: 0x7F0F016C
-			public const int Widget_AppCompat_ListPopupWindow = 2131689836;
+			public const int Widget_AppCompat_ListMenuView = 2131689836;
 			
 			// aapt resource value: 0x7F0F016D
-			public const int Widget_AppCompat_ListView = 2131689837;
+			public const int Widget_AppCompat_ListPopupWindow = 2131689837;
 			
 			// aapt resource value: 0x7F0F016E
-			public const int Widget_AppCompat_ListView_DropDown = 2131689838;
+			public const int Widget_AppCompat_ListView = 2131689838;
 			
 			// aapt resource value: 0x7F0F016F
-			public const int Widget_AppCompat_ListView_Menu = 2131689839;
+			public const int Widget_AppCompat_ListView_DropDown = 2131689839;
 			
 			// aapt resource value: 0x7F0F0170
-			public const int Widget_AppCompat_PopupMenu = 2131689840;
+			public const int Widget_AppCompat_ListView_Menu = 2131689840;
 			
 			// aapt resource value: 0x7F0F0171
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131689841;
+			public const int Widget_AppCompat_PopupMenu = 2131689841;
 			
 			// aapt resource value: 0x7F0F0172
-			public const int Widget_AppCompat_PopupWindow = 2131689842;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131689842;
 			
 			// aapt resource value: 0x7F0F0173
-			public const int Widget_AppCompat_ProgressBar = 2131689843;
+			public const int Widget_AppCompat_PopupWindow = 2131689843;
 			
 			// aapt resource value: 0x7F0F0174
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131689844;
+			public const int Widget_AppCompat_ProgressBar = 2131689844;
 			
 			// aapt resource value: 0x7F0F0175
-			public const int Widget_AppCompat_RatingBar = 2131689845;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131689845;
 			
 			// aapt resource value: 0x7F0F0176
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131689846;
+			public const int Widget_AppCompat_RatingBar = 2131689846;
 			
 			// aapt resource value: 0x7F0F0177
-			public const int Widget_AppCompat_RatingBar_Small = 2131689847;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131689847;
 			
 			// aapt resource value: 0x7F0F0178
-			public const int Widget_AppCompat_SearchView = 2131689848;
+			public const int Widget_AppCompat_RatingBar_Small = 2131689848;
 			
 			// aapt resource value: 0x7F0F0179
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131689849;
+			public const int Widget_AppCompat_SearchView = 2131689849;
 			
 			// aapt resource value: 0x7F0F017A
-			public const int Widget_AppCompat_SeekBar = 2131689850;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131689850;
 			
 			// aapt resource value: 0x7F0F017B
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131689851;
+			public const int Widget_AppCompat_SeekBar = 2131689851;
 			
 			// aapt resource value: 0x7F0F017C
-			public const int Widget_AppCompat_Spinner = 2131689852;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131689852;
 			
 			// aapt resource value: 0x7F0F017D
-			public const int Widget_AppCompat_Spinner_DropDown = 2131689853;
+			public const int Widget_AppCompat_Spinner = 2131689853;
 			
 			// aapt resource value: 0x7F0F017E
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131689854;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131689854;
 			
 			// aapt resource value: 0x7F0F017F
-			public const int Widget_AppCompat_Spinner_Underlined = 2131689855;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131689855;
 			
 			// aapt resource value: 0x7F0F0180
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131689856;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131689856;
 			
 			// aapt resource value: 0x7F0F0181
-			public const int Widget_AppCompat_Toolbar = 2131689857;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131689857;
 			
 			// aapt resource value: 0x7F0F0182
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131689858;
+			public const int Widget_AppCompat_Toolbar = 2131689858;
 			
 			// aapt resource value: 0x7F0F0183
-			public const int Widget_Compat_NotificationActionContainer = 2131689859;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131689859;
 			
 			// aapt resource value: 0x7F0F0184
-			public const int Widget_Compat_NotificationActionText = 2131689860;
+			public const int Widget_Compat_NotificationActionContainer = 2131689860;
 			
 			// aapt resource value: 0x7F0F0185
-			public const int Widget_Design_AppBarLayout = 2131689861;
+			public const int Widget_Compat_NotificationActionText = 2131689861;
 			
 			// aapt resource value: 0x7F0F0186
-			public const int Widget_Design_BottomNavigationView = 2131689862;
+			public const int Widget_Design_AppBarLayout = 2131689862;
 			
 			// aapt resource value: 0x7F0F0187
-			public const int Widget_Design_BottomSheet_Modal = 2131689863;
+			public const int Widget_Design_BottomNavigationView = 2131689863;
 			
 			// aapt resource value: 0x7F0F0188
-			public const int Widget_Design_CollapsingToolbar = 2131689864;
+			public const int Widget_Design_BottomSheet_Modal = 2131689864;
 			
 			// aapt resource value: 0x7F0F0189
-			public const int Widget_Design_CoordinatorLayout = 2131689865;
+			public const int Widget_Design_CollapsingToolbar = 2131689865;
 			
 			// aapt resource value: 0x7F0F018A
-			public const int Widget_Design_FloatingActionButton = 2131689866;
+			public const int Widget_Design_CoordinatorLayout = 2131689866;
 			
 			// aapt resource value: 0x7F0F018B
-			public const int Widget_Design_NavigationView = 2131689867;
+			public const int Widget_Design_FloatingActionButton = 2131689867;
 			
 			// aapt resource value: 0x7F0F018C
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131689868;
+			public const int Widget_Design_NavigationView = 2131689868;
 			
 			// aapt resource value: 0x7F0F018D
-			public const int Widget_Design_Snackbar = 2131689869;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131689869;
 			
 			// aapt resource value: 0x7F0F018E
-			public const int Widget_Design_TabLayout = 2131689870;
+			public const int Widget_Design_Snackbar = 2131689870;
 			
 			// aapt resource value: 0x7F0F018F
-			public const int Widget_Design_TextInputLayout = 2131689871;
+			public const int Widget_Design_TabLayout = 2131689871;
 			
 			// aapt resource value: 0x7F0F0190
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131689872;
+			public const int Widget_Design_TextInputLayout = 2131689872;
 			
 			// aapt resource value: 0x7F0F0191
-			public const int Widget_MediaRouter_MediaRouteButton = 2131689873;
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131689873;
+			
+			// aapt resource value: 0x7F0F0192
+			public const int Widget_MediaRouter_MediaRouteButton = 2131689874;
 			
 			static Style()
 			{

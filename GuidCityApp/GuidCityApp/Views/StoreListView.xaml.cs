@@ -1,13 +1,14 @@
-﻿using GuidCityApp.ViewModel;
+﻿using GuidCityApp.View.Base;
+using GuidCityApp.ViewModel;
 using System;
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace GuidCityApp
+namespace GuidCityApp.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StoreListView : ContentPage
+    public partial class StoreListView : BaseView
     {
 
         public StoreListView()

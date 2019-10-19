@@ -1,5 +1,7 @@
 ﻿using GuidCityApp.Models;
+using GuidCityApp.Views.PopUp;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace GuidCityApp.ViewModel
@@ -74,8 +76,64 @@ namespace GuidCityApp.ViewModel
 
             };
         }
+        public ICommand OpenPopUpCommand
+        {
+            get
+            {
+                return new Command(async () =>
+                {
+                    await Rg.Plugins.Popup.Services.PopupNavigation.Instance.PushAsync(new BottomToTopPopupPage());
+                });
+            }
+        }
 
 
+        public ICommand GetListCommand
+        {
+            get
+            {
+                return new Command<string>(async (x) =>
+                {
+                    switch (x)
+                    {
+                        case "1":
+                            ColorChaletsButton = "#FFB71A";
+                            ColorRestaurantsButton = "#e3e5e5";
+                            ColorHouseButton = "#e3e5e5";
+                            ColorHotelsButton = "#e3e5e5";
+
+                            break;
+                        case "2":
+                            ColorRestaurantsButton = "#FFB71A";
+                            ColorChaletsButton = "#e3e5e5";
+                            ColorHouseButton = "#e3e5e5";
+                            ColorHotelsButton = "#e3e5e5";
+
+                            break;
+                        case "3":
+                            ColorHotelsButton = "#FFB71A"; 
+                            ColorChaletsButton = "#e3e5e5";
+                            ColorRestaurantsButton = "#e3e5e5";
+                            ColorHouseButton = "#e3e5e5";
+
+                            break;
+                        case "4":
+                            ColorHouseButton = "#FFB71A";
+                            ColorChaletsButton = "#e3e5e5";
+                            ColorRestaurantsButton = "#e3e5e5";
+                            ColorHotelsButton = "#e3e5e5";
+
+                            break;
+                    }
+                   
+                });
+            }
+        }
+
+        public string ColorChaletsButton { get; set; }
+        public string ColorRestaurantsButton { get; set; }
+        public string ColorHotelsButton { get; set; }
+        public string ColorHouseButton { get; set; }
     }
 
     public class Section
