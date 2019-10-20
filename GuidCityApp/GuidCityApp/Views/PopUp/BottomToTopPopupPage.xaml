@@ -7,15 +7,11 @@
                                        xmlns:backdrop="clr-namespace:Plugin.XF.Backdrop;assembly=Plugin.XF.Backdrop"
                                        x:Class="GuidCityApp.Views.PopUp.BottomToTopPopupPage"
                                        RoundedCorners="topleft,topright" ShadowOpacity="0" BorderThickness="3" ShadowColor="Transparent"
-                                       BorderColor="White" CornerRadius="-1" IndicatorColor="White">
-    <backdrop:BottomToTopBackdropPopupPage.PageContent>
-        <ContentView>
-            <StackLayout BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
-                <ContentView BackgroundColor="White" Padding="10" VerticalOptions="Center">
-                    <Label x:Name="AddressLabel"/>
-                </ContentView>
-                <ContentView HeightRequest="1" HorizontalOptions="FillAndExpand" BackgroundColor="Gray"/>
-                <Entry />
+                                       BorderColor="White" CornerRadius="-1" IndicatorColor="White" HeightRequest="100" >
+    <backdrop:BottomToTopBackdropPopupPage.PageContent >
+        <ContentView HeightRequest="100">
+            <StackLayout HeightRequest="100" BackgroundColor="White" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0">
+                
             </StackLayout>
         </ContentView>
     </backdrop:BottomToTopBackdropPopupPage.PageContent>
